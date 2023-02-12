@@ -1,15 +1,15 @@
 {
 "generator_settings": {
-  "start_power": ,
-  "minimum_power": ,
-  "maximum_power": ,
-  "double_name": ,
-  "random_abilities": 
+  "start_power": -15,
+  "minimum_power": -5,
+  "maximum_power": 10,
+  "double_name": true,
+  "random_abilities": false
 },
   
-"win_condition": "",
+"win_condition": "0) You win when only unaligned and Plague team players are remaining",
   
-"default": ,
+"default": {"noun": "Plaguebearer", "adjective": "Plagued", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
 
 "abilities_names": [
 ],
