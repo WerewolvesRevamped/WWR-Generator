@@ -57,7 +57,7 @@
     {"noun": "Journalist", "adjective": "Journal-writing", "power": 3, "basics": "*On Death:* Give journal to targetted role", "details": "The %n selects a role by saying the noun of a role name.", "win": "", "setup": "", "role": "Journalist"},
     {"noun": "Macho", "adjective": "Macho", "power": 15, "basics": "*On Death:* Know attacker. Survive until night starts.", "details": "If the %n is killed by the lynch; they will die as normal.", "win": "", "setup": "", "role": ""},
     {"noun": "Scientist", "adjective": "Mad", "power": 7, "basics": "*On Death:* Attack targetted subject", "details": "", "win": "", "setup": "", "role": "Mad Scientist"},
-    {"noun": "Experimenter", "adjective": "Crazy", "power": 7, "basics": "*On Death:* Attack both subjects", "details": "", "win": "", "setup": "", "role": "Mad Scientist"},
+    {"noun": "Experimenter", "adjective": "Crazy", "power": 7, "basics": "*On Death:* Attack all subjects", "details": "", "win": "", "setup": "", "role": "Mad Scientist"},
     {"noun": "Shape Shifter", "adjective": "Shape Shifting", "power": 15, "basics": "*On Death:* Turn into a different random townsfolk role", "details": "If the %n is killed by the lynch; they will die as normal.", "win": "", "setup": "", "role": ""}
   ],
   [
