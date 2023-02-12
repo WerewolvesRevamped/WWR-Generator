@@ -1,0 +1,51 @@
+{
+"generator_settings": {
+  "start_power": -15,
+  "minimum_power": -5,
+  "maximum_power": 10,
+  "double_name": true,
+  "random_abilities": false 
+},
+  
+"win_condition": "0) You win when only Unaligned players; soulless players; and players of the Hell team remain. By default you have access to the soul pool, but cannot use souls in any way.\n",
+  
+"default": {"noun": "Devil", "adjective": "Devilish", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+
+"abilities_names": [
+  "Wager Ability",
+  "Extra Ability - Soul Ability",
+  "Extra Ability - Misc",
+  "Extra Ability - Soul related",
+  "Passive"
+],
+
+"abilities": [
+  [
+    {"noun": "Devil", "adjective": "Devilish", "power": 3, "basics": "*Day:* Send a devil’s wager", "details": "", "win": "", "setup": "", "role": "Devil"},
+    {"noun": "Satan", "adjective": "Satanic", "power": 6, "basics": "*Day:* Send a devil’s wager to up to 2 players", "details": "", "win": "", "setup": "", "role": "Devil"},
+    {"noun": "Cerberus", "adjective": "Cerberean", "power": 1, "basics": "*Day:* Send a cerberus’s offer", "details": "", "win": "", "setup": "", "role": "Cerberus"},
+    {"noun": "Demon", "adjective": "Demonic", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": "Demon"}
+  ],
+  [
+    {"noun": "Demon", "adjective": "Demonic", "power": 8, "basics": "*Available Soul Abilities:* Protect & Attack", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Imp", "adjective": "Impish", "power": 6, "basics": "*Available Soul Abilities:* Attack", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Hellion", "adjective": "Hellish", "power": 4, "basics": "*Available Soul Abilities:* Protect & Auto-Protect", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Beelzebub", "adjective": "Beelzebubian", "power": 10, "basics": "*Available Soul Abilities:* Attack, Protect & Auto-Protect", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Prince", "adjective": "Princely", "power": 5, "basics": "*Immediate Night:* Check one player’s role", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Archangel", "adjective": "Angelic", "power": 15, "basics": "*Immediate Night:* Steal a players soul", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Soul Owner", "adjective": "Soul-owning", "power": 0, "basics": "*Start:* You have `1` soul", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Soul Collector", "adjective": "Soul-collecting", "power": 4, "basics": "*Start:* You have `2` souls", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Soul Hoarder", "adjective": "Soul-hoarding", "power": 8, "basics": "*Start:* You have `3` souls", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Lucifer", "adjective": "Luciferian", "power": 1, "basics": "*Additional Soul Ability:* Investigation", "details": "Soul investigation can be done at any time (works like FT).", "win": "", "setup": "", "role": "Wolf"}
+  ],
+  [
+    {"noun": "Adversary", "adjective": "Adverse", "power": 2, "basics": "*On Attack:* Attacker is revealed in hell channel", "details": "If a group killed the %n; a random person of the group is selected. Does not work for lynch.", "win": "", "setup": "", "role": ""},
+    {"noun": "Traitor", "adjective": "Fallen", "power": 4, "basics": "*Passive:* Wolfpack Access", "details": "You pretend to be a werewolf, but are really a member of the hell team.", "win": "", "setup": "", "role": "Wolf"}
+  ]
+]
+
+}
