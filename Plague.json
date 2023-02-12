@@ -1,0 +1,20 @@
+{
+"generator_settings": {
+  "start_power": ,
+  "minimum_power": ,
+  "maximum_power": ,
+  "double_name": ,
+  "random_abilities": 
+},
+  
+"win_condition": "",
+  
+"default": ,
+
+"abilities_names": [
+],
+
+"abilities": [
+]
+
+}
