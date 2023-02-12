@@ -9,7 +9,7 @@ Data for the WWR role generator
   "minimum_power": <Integer>, // the weakest allowed role  
   "maximum_power": <Integer>, // the strongest allowed role  
   "double_name": <Boolean>, // in case only one ability is chosen, is it allowed to use both of the name segments from that ability?  
-  "random_abilities": <Boolean> // guarantees an ability from the first pool is selected
+  "random_abilities": <Boolean> // if false, guarantees an ability from the first pool is selected
 },  
     
 "win_condition": "0) <Text>\n", // the base win condition  
