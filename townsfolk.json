@@ -33,7 +33,7 @@
     {"noun": "Bartender", "adjective": "Bartending", "power": 16, "basics": "*Passive:* Talk anonymously in tavern", "details": "", "win": "", "setup": "", "role": "Bartender"},
     {"noun": "Child", "adjective": "Childish", "power": 7, "basics": "*On Death:* +1 lynch for next day", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Baby", "adjective": "Newborn", "power": 12, "basics": "*On Death:* +2 lynches for next day", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Womb", "adjective": "Pregnant", "power": 15, "basics": "*On Death:* +3 lynches for next day", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Fetus", "adjective": "Fetal", "power": 15, "basics": "*On Death:* +3 lynches for next day", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Wild Child", "adjective": "Wild", "power": -15, "basics": "*Passive:* Wild Child", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Devout Villager", "adjective": "Devout", "power": 1, "basics": "*Passive:* Alignment can never be changed.", "details": "All attempts to do will result in failure.", "win": "", "setup": "", "role": ""},
     {"noun": "Neighbor", "adjective": "Neighboring", "power": 14, "basics": "*Start:* Receives a list of three players. At least one of those players is part of the townsfolk team.", "details": "", "win": "", "setup": "", "role": ""},
