@@ -46,7 +46,7 @@
   [
     {"noun": "Adversary", "adjective": "Adverse", "power": 2, "basics": "*On Attack:* Attacker is revealed in hell channel", "details": "If a group killed the %n; a random person of the group is selected. Does not work for lynch.", "win": "", "setup": "", "role": ""},
     {"noun": "Traitor", "adjective": "Fallen", "power": 4, "basics": "*Passive:* Wolfpack Access", "details": "You pretend to be a werewolf, but are really a member of the hell team.", "win": "", "setup": "", "role": "Wolf"},
-    {"noun": "Target", "adjective": "Targeted", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
+    {"noun": "Victim", "adjective": "Laboratorial", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
   ]
 ]
 
