@@ -24,12 +24,16 @@
     {"noun": "Player", "adjective": "Flute", "power": 14, "basics": "*Immediate Night:* Enchant three players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
     {"noun": "Musician", "adjective": "Piano", "power": 9, "basics": "*Immediate Night:* Enchant two players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
     {"noun": "Writer", "adjective": "Keyboard", "power": 10, "basics": "*Immediate Day:* Enchant two players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
-    {"noun": "DJ", "adjective": "Ukulele", "power": 4, "basics": "*Immediate Night:* Enchant one players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "DJ", "adjective": "Ukulele", "power": 4, "basics": "*Immediate Night:* Enchant one player", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
     {"noun": "Songsmith", "adjective": "Bells", "power": 5, "basics": "*Immediate Day:* Enchant one players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
     {"noun": "Composer", "adjective": "Guitar", "power": 7, "basics": "*Any Time:* Join the enchant channel\n*Immediate Night*: Enchant one player", "details": "", "win": "", "setup": "", "role": "Flute Player"},
     {"noun": "Soloist", "adjective": "Lone", "power": 5, "basics": "*Immediate Night:* Enchant two players", "details": "The %n is not part of the Flute Player group; but wins with them.", "win": "", "setup": "", "role": ""},
     {"noun": "Connoisseur", "adjective": "Microphone", "power": 2, "basics": "*Immediate Night:* Enchant two players, then Unenchant one player", "details": "The player that is unenchanted has to already have been enchanted, if there’s no already enchanted players nobody is unenchanted.", "win": "", "setup": "", "role": "Flute Player"},
-    {"noun": "Tunesmith", "adjective": "Cymbal", "power": 12, "basics": "*Any Time:* Join the enchant channel\n*Immediate Night*: Enchant two players", "details": "", "win": "", "setup": "", "role": "Flute Player"}
+    {"noun": "Tunesmith", "adjective": "Cymbal", "power": 12, "basics": "*Any Time:* Join the enchant channel\n*Immediate Night*: Enchant two players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "Charmer", "adjective": "Charming", "power": 5, "basics":  "*Immediate Day:* Charm one player\n*Immediate Night:* Enchant one player", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "Enchanter", "adjective": "Encharming", "power": 6, "basics":  "*Immediate Day:* Charm two players\n*Immediate Night:* Enchant one player", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "Allurer", "adjective": "Alluring", "power": 10, "basics":  "*Immediate Day:* Charm one player\n*Immediate Night:* Enchant two players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "Charm Master", "adjective": "Charasmatic", "power": 8, "basics":  "*Immediate Day:* Charm one player\n*Any Time: Join the enchant channel\n*Immediate Night:* Enchant one player", "details": "", "win": "", "setup": "", "role": "Flute Player"}
   ],
   [
     {"noun": "Artist", "adjective": "Drums", "power": 3, "basics": "*Immediate Night:* Check one player’s role", "details": "", "win": "", "setup": "", "role": ""},
@@ -61,7 +65,8 @@
     {"noun": "Election Fraud", "adjective": "Drums", "power": 3, "basics": "*Passive:* Public vote counts as 2", "details": "If the %n becomes Mayor; their vote is counted as 3.", "win": "", "setup": "players set public_value %p 2", "role": ""},
     {"noun": "Running Musician", "adjective": "Fast", "power": 3, "basics": "*Passive:* Escape once", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Sprinting Musician", "adjective": "Acrobatic", "power": 5, "basics": "*Passive:* Escape twice", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Deflecting Musician", "adjective": "Lute", "power": 7, "basics": "*Passive:* Escape once and kill an enchanted player instead", "details": "", "win": "", "setup": "", "role": ""}
+    {"noun": "Deflecting Musician", "adjective": "Lute", "power": 7, "basics": "*Passive:* Escape once and kill an enchanted player instead", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Apprentice", "adjective": "Apprenticing", "power": 7, "basics": "*Passive:* Target a player. All visits from enchanted players will be redirected to your target.", "details": "You may update your target once per phase, with one emergency change.", "win": "", "setup": "", "role": ""}
   ]
 ]
 
