@@ -22,11 +22,13 @@
   [
     {"noun": "Seeker", "adjective": "Symptom", "power": 3, "basics": "*Immediate Night:* Learn if somebody has the plague", "details": "Plague team will always show as *not* having the plague", "win": "", "setup": "", "role": ""},
     {"noun": "Finder", "adjective": "Plague", "power": 4, "basics": "*Immediate Night:* Learn if somebody has the plague, and if yes, since when", "details": "Plague team will always show as *not* having the plague", "win": "", "setup": "", "role": ""},
-    {"noun": "Revealer", "adjective": "Disease", "power": 2, "basics": "*Immediate Night:* Learn if somebody is part of the plague team", "details": "", "win": "", "setup": "", "role": ""}
+    {"noun": "Revealer", "adjective": "Disease", "power": 2, "basics": "*Immediate Night:* Learn if somebody is part of the plague team", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Mortician", "adjective": "Funeral-arranging", "power": 1, "basics": "*Passive:* Learn whenever somebody dies of the plague", "details": "", "win": "", "setup": "", "role": ""}
   ],
   [
     {"noun": "Doctor", "adjective": "Infection", "power": 5, "basics": "*Immediate Night:* Cure somebody of the plague", "details": "Players in the final stage of the plague cannot be cured", "win": "", "setup": "", "role": ""},
-    {"noun": "Specialist", "adjective": "Epidemic", "power": 8, "basics": "*Immediate Night:* Cure somebody of the plague", "details": "You can even cure players in the final stage of the plague", "win": "", "setup": "", "role": ""}
+    {"noun": "Specialist", "adjective": "Epidemic", "power": 7, "basics": "*Immediate Night:* Cure somebody of the plague", "details": "You can even cure players in the final stage of the plague", "win": "", "setup": "", "role": ""},
+    {"noun": "Necromancer", "adjective": "Revitalizing", "power": 9, "basics": "*Immediate Day:* Resurrect somebody that died of the plague (once)", "details": "If you target didn't die of the plague, you may try again on another day.", "win": "", "setup": "", "role": ""}
   ],
   [
     {"noun": "Patient", "adjective": "Infected", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
