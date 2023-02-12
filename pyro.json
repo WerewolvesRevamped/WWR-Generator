@@ -2,7 +2,7 @@
 "generator_settings": {
   "start_power": -20,
   "minimum_power": -5,
-  "maximum_power": -10,
+  "maximum_power": 10,
   "double_name": true,
   "random_abilities": false 
 },
