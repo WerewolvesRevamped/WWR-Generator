@@ -113,7 +113,7 @@
     {"noun": "Butcher", "adjective": "Butchering", "power": 4, "basics": "*Passive:* Butcher", "details": "", "win": "", "setup": "", "role": "Butcher"},
     {"noun": "Juror", "adjective": "Judging", "power": 10, "basics": "*Passive:* Juror", "details": "", "win": "", "setup": "", "role": "Juror"},
     {"noun": "Merchant", "adjective": "Merchantly", "power": 12, "basics": "*Passive:* Baker & Butcher", "details": "", "win": "", "setup": "", "role": "Butcher#Baker"},
-	  {"noun": "Jack of all Trades", "adjective": "Knowledgeable", "power": 18, "basics": "*Passive:* Baker, Butcher, Juror & Cult Member", "details": "", "win": "", "setup": "", "role": "Butcher#Baker#Cult Member#Juror"},
+    {"noun": "Jack of all Trades", "adjective": "Knowledgeable", "power": 18, "basics": "*Passive:* Baker, Butcher, Juror & Cult Member", "details": "", "win": "", "setup": "", "role": "Butcher#Baker#Cult Member#Juror"},
     {"noun": "Cult Leader", "adjective": "Cult Leading", "power": 6, "basics": "*Passive:* Cult Leader", "details": "The Cult can attack until the last Cult Leader dies.", "win": "", "setup": "", "role": "Cult Leader"},
     {"noun": "Cult Member", "adjective": "Cultist", "power": 7, "basics": "*Passive:* Cult Member", "details": "The Cult can attack until the last Cult Leader dies.", "win": "", "setup": "", "role": "Cult Member"},
     {"noun": "Cult Acolyte", "adjective": "Acolytic", "power": 8, "basics": "*Passive:* Cult Acolyte", "details": "The Cult can attack until the last Cult Leader dies.", "win": "", "setup": "", "role": "Cult Acolyte"},
