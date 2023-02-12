@@ -29,8 +29,7 @@
     {"noun": "Mother Wolf", "adjective": "Pregnant", "power": 15, "basics": "*Passive:* Start with -2 votes on public polls", "details": "", "win": "", "setup": "players set public_votes %p -2", "role": ""},
     {"noun": "Wolf Elder", "adjective": "Elder", "power": -6, "basics": "*Passive:* Private vote counts as -5", "details": "", "win": "", "setup": "players set private_value %p -5", "role": "Wolf"},
     {"noun": "Loyal Wolf", "adjective": "Loyal", "power": 1, "basics": "*Passive:* Can not change alignment by any means.", "details": "Any attempts to do so will fail.", "win": "", "setup": "players set private_value %p -5", "role": "Wolf"},
-    {"noun": "Outsider", "adjective": "Lone", "power": -3, "basics": "*Passive:* Join wolfpack if a member of the wolfpack dies", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Trickster", "adjective": "Tricky", "power": -5, "basics": "*Passive:* Public vote count as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""}
+    {"noun": "Outsider", "adjective": "Lone", "power": -3, "basics": "*Passive:* Join wolfpack if a member of the wolfpack dies", "details": "", "win": "", "setup": "", "role": ""}
   ],
   [
     {"noun": "Tanner", "adjective": "Tanning", "power": 17, "basics": "*Immediate Day:* Disguise two players", "details": "All players lose their disguise at the end of the night.", "win": "", "setup": "", "role": ""},
