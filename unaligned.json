@@ -43,7 +43,7 @@
     {"noun": "Bear", "adjective": "Bear", "power": 9, "basics": "*On Attack:* Escape 15 times\n*Passive:* Immediately Attacks all visitors", "details": "", "win": "The %n wins if they attack two players.", "setup": "", "role": ""},
     {"noun": "Riding Hood", "adjective": "Red", "power": 12, "basics": "*On Attack:* Attacker can never attack again", "details": "", "win": "The %n wins if they die by an attack.", "setup": "", "role": ""},
     {"noun": "Apprentice", "adjective": "Apprenticing", "power": 12, "basics": "*Immediate Passive* Become the role of the first person who dies.", "details": "Join all of the targets Secret channels when becoming their role.", "win": "The %n cannot win while their role is %n.", "setup": "", "role": ""},
-    {"noun": "Swindle", "adjective": "Swindling", "power": 3, "basics": "*Immediate Night:* Set a players voting power to 0.", "details": "Fails if target currently has 0 or less votes.", "win": "the %n wins if all players voting value is 0 or lower.", "setup": "", "role": "Swindler"}
+    {"noun": "Swindler", "adjective": "Swindling", "power": 3, "basics": "*Immediate Night:* Set a players voting power to 0.", "details": "Fails if target currently has 0 or less votes.", "win": "the %n wins if all players voting value is 0 or lower.", "setup": "", "role": "Swindler"}
   ],
   [
     {"noun": "Inspector", "adjective": "Inspecting", "power": 10, "basics": "*Immediate Night:* Check one players role.", "details": "", "win": "", "setup": "", "role": ""},
@@ -56,7 +56,7 @@
     {"noun": "Mask Salesman", "adjective": "Happy", "power": 2, "basics": "*Immediate Day:* Disguise yourself.", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Tan Provider", "adjective": "Tanned", "power": 3, "basics": "*Immediate Day:* Disguise a player.", "details": "Can be used on yourself.", "win": "", "setup": "", "role": ""},
     {"noun": "Fraudster", "adjective": "Frauding", "power": 3, "basics": "*Immediate Night:* Unelect a player.", "details": "Can be used on yourself.", "win": "", "setup": "", "role": ""},
-    {"noun": "Hacker", "adjective": "Hacker", "power": 3, "basics": "*Immediate Night:* elect a player. (once)", "details": "Can be used on yourself. Becomes the role that would be present on the next days election poll.", "win": "", "setup": "", "role": ""},
+    {"noun": "Hacking", "adjective": "Hacker", "power": 3, "basics": "*Immediate Night:* elect a player. (once)", "details": "Can be used on yourself. Becomes the role that would be present on the next days election poll.", "win": "", "setup": "", "role": ""},
     {"noun": "Healer", "adjective": "Healing", "power": 3, "basics": "*Immediate Night:* Revoke all solo effects from a player.", "details": "Can be used on yourself.", "win": "", "setup": "", "role": ""}
   ],
   [
