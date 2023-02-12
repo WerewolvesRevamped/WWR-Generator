@@ -1,0 +1,42 @@
+{
+"generator_settings": {
+  "start_power": -10,
+  "minimum_power": -5,
+  "maximum_power": 10,
+  "double_name": true,
+  "random_abilities": true 
+},
+  
+"win_condition": "0) You win when the Plague team is eliminated. The Plague team cannot win with the %n alive.",
+  
+"default": {"noun": "Doctor", "adjective": "Plague", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+
+"abilities_names": [
+  "Ability - Checking/Invest",
+  "Ability - Curing",
+  "Passive - Passive/Immunity",
+  "Negative"
+],
+
+"abilities": [
+  [
+    {"noun": "Seeker", "adjective": "Symptom", "power": 3, "basics": "*Immediate Night:* Learn if somebody has the plague", "details": "Plague team will always show as *not* having the plague", "win": "", "setup": "", "role": ""},
+    {"noun": "Finder", "adjective": "Infection", "power": 4, "basics": "*Immediate Night:* Learn if somebody has the plague, and if yes, since when", "details": "Plague team will always show as *not* having the plague", "win": "", "setup": "", "role": ""},
+    {"noun": "Revealer", "adjective": "Disease", "power": 2, "basics": "*Immediate Night:* Learn if somebody is part of the plague team", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Doctor", "adjective": "Plague", "power": 5, "basics": "*Immediate Night:* Cure somebody of the plague", "details": "Players in the final stage of the plague cannot be cured", "win": "", "setup": "", "role": ""},
+    {"noun": "Specialist", "adjective": "Epidemic", "power": 8, "basics": "*Immediate Night:* Cure somebody of the plague", "details": "You can even cure players in the final stage of the plague", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Patient", "adjective": "Infected", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Expert", "adjective": "Social-distancing", "power": 2, "basics": "*Passive:* Cannot be indirectly contaminated", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Analyst", "adjective": "Data-collecting", "power": 1, "basics": "*Start Phase:* Learn the number of contaminated players", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Senior Doctor", "adjective": "Vulnerable", "power": -1, "basics": "*On Rodent:* Direct contamination results in death", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Scientist", "adjective": "Experimenting", "power": -3, "basics": "A subject in the laboratory.", "details": "It is possible that a Mad Scientist doesn't exist.", "win": "", "setup": "", "role": "!_Target"}
+  ]
+]
+
+}
