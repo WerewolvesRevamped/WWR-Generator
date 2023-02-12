@@ -39,7 +39,7 @@
     {"noun": "Warlock", "adjective": "Magenta", "power": 6, "basics": "*Immediate Night:* Check a players role", "details": "The %n will see SoloWWW’s as a random Werewolf role.", "win": "", "setup": "", "role": ""},
     {"noun": "Saboteur", "adjective": "Purple", "power": 4, "basics": "*Immediate Night:* Saboteur Wolf", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Infected Wolf", "adjective": "Infected", "power": -8, "basics": "*Immediate Night:* Turn a player into a random wolf role", "details": "You have to do this. Members of the wolfpack can’t be infected", "win": "", "setup": "", "role": ""},
-    {"noun": "Stalker", "adjective": "Stalking", "power": 6, "basics": "*Immediate Night:* Stalker Wolf", "details": "", "win": "", "setup": "", "role": "Stalker Wolf"},
+    {"noun": "Stalker Wolf", "adjective": "Stalking", "power": 6, "basics": "*Immediate Night:* Stalker", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Psychic", "adjective": "Cyan", "power": 6, "basics": "*Immediate Night:* Psychic Wolf", "details": "", "win": "", "setup": "", "role": ""}
   ],
   [
