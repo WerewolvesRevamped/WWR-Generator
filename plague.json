@@ -43,7 +43,7 @@
     {"noun": "Vermin Tamer", "adjective": "Pest Owning", "power": 4, "basics": "*Passive:* Start contagious and can spread the Plague", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Rat King", "adjective": "Rat Filled", "power": 3, "basics": "*Passive:* Can become contagious", "details": "You can't be directly infected", "win": "", "setup": "", "role": ""},
     {"noun": "Pigeon Keeper", "adjective": "Fecal Coated", "power": 4, "basics": "*Passive End Phase:* Learn how many players are plagued", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Lab Rat", "adjective": "Testable", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
+    {"noun": "Lab Rat", "adjective": "Testable", "power": -3, "basics": "A subject in the laboratory.", "details": "It is possible that a Mad Scientist doesn't exist.", "win": "", "setup": "", "role": "!_Target"}
   ]
 ]
 }

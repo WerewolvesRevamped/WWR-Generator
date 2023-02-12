@@ -52,7 +52,7 @@
     {"noun": "of Paranoia", "adjective": "Tall Giraffe", "power": 1, "basics": "*Passive:* When a doomed player visits you, you are told their name", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "of Flight", "adjective": "Winged Pegasus", "power": 6, "basics": "*On Lynch:* Lynch ignored, next highest person (if applicable) lynched instead (multi use)", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "of Depression", "adjective": "Cynical Donkey", "power": -4, "basics": "*Passive:* Start with 2 votes on public polls", "details": "", "win": "", "setup": "players set public_votes %p 2", "role": ""},
-    {"noun": "of Testing", "adjective": "Pony", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
+    {"noun": "of Testing", "adjective": "Pony", "power": -3, "basics": "A subject in the laboratory.", "details": "It is possible that a Mad Scientist doesn't exist.", "win": "", "setup": "", "role": "!_Target"}
   ]
 
 ]

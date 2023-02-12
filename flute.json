@@ -67,7 +67,7 @@
     {"noun": "Sprinting Musician", "adjective": "Acrobatic", "power": 5, "basics": "*Passive:* Escape twice", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Deflecting Musician", "adjective": "Lute", "power": 7, "basics": "*Passive:* Escape once and kill an enchanted player instead", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Apprentice", "adjective": "Apprenticing", "power": 7, "basics": "*Passive:* Target a player. All visits from enchanted players will be redirected to your target.", "details": "You may update your target once per phase, with one emergency change.", "win": "", "setup": "", "role": ""},
-    {"noun": "Spectrum Analyst", "adjective": "Experimental", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
+    {"noun": "Spectrum Analyst", "adjective": "Experimental", "power": -3, "basics": "A subject in the laboratory.", "details": "It is possible that a Mad Scientist doesn't exist.", "win": "", "setup": "", "role": "!_Target"}
   ]
 ]
 

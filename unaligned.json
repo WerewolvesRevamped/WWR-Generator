@@ -78,7 +78,7 @@
     {"noun": "Observer", "adjective": "Perceptive", "power": 5, "basics": "*Passive* You learn the names of everyone who visits you.", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Dust Collector", "adjective": "Dusty", "power": 0, "basics": "*Passive* Players who visit you get powdered.", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Thief", "adjective": "Thieving", "power": 7, "basics": "*On Attack:* Switch roles with attacker (once)", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Hostage", "adjective": "Captured", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
+    {"noun": "Hostage", "adjective": "Captured", "power": -3, "basics": "A subject in the laboratory.", "details": "It is possible that a Mad Scientist doesn't exist.", "win": "", "setup": "", "role": "!_Target"}
   ]
 ]
 
