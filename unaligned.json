@@ -15,7 +15,8 @@
   "Win Condition",
   "Ability - Invest, Escape, Attack",
   "Ability - Disguise, Other",
-  "Passive - Vote Values"
+  "Passive - Vote Values",
+  "Passive"
 ],
 
 "abilities": [
@@ -59,14 +60,24 @@
     {"noun": "Hacker", "adjective": "Hacking", "power": 3, "basics": "*Immediate Night:* Elect player. (once)", "details": "Can be used on yourself, unless doing so would allow you to immediately win. Becomes the role that would be present on the next days election poll.", "win": "", "setup": "", "role": ""},
     {"noun": "Healer", "adjective": "Healing", "power": 3, "basics": "*Immediate Night:* Revoke all solo effects from a player.", "details": "Can be used on yourself.", "win": "", "setup": "", "role": ""},
     {"noun": "Guardian", "adjective": "Guarding", "power": 4, "basics": "*Immediate Night:* Protect one player from attacks.", "details": "Can be used on yourself. Can't target same person on consecutive nights.", "win": "", "setup": "", "role": ""},
-    {"noun": "Grand Guardian", "adjective": "Castling", "power": 6, "basics": "*Immediate Night:* Protect two players from attacks.", "details": "Can be used on yourself. Can't target the same people on consective nights.", "win": "", "setup": "", "role": ""}
+    {"noun": "Grand Guardian", "adjective": "Castling", "power": 6, "basics": "*Immediate Night:* Protect two players from attacks.", "details": "Can be used on yourself. Can't target the same people on consective nights.", "win": "", "setup": "", "role": ""},
+    {"noun": "Story Teller", "adjective": "Game Master", "power": 7, "basics": "*Any time* Make the host send any message of your choosing in the story time channel. (twice)", "details": "The host can choose not to send your request if they deem it inappropriate.", "win": "", "setup": "", "role": ""},
+    {"noun": "Moderator", "adjective": "Moderating", "power": 5, "basics": "*Any Time:* Can make the host send a fake game related message to the personal channel of a player. (twice)", "details": "The host can choose not to send your request if they deem it inappropriate.", "win": "", "setup": "", "role": ""},
+    {"noun": "Hell Dog", "adjective": "Cerberi", "power": 4, "basics": "**End Day:* Send out a fake Cerberus's offer", "details": "The Cerberus's offer doesn’t actually work and will silently fail.", "win": "", "setup": "", "role": "Cerberus"},
+    {"noun": "Corruptionist", "adjective": "Corrupt", "power": 10, "basics": "*Immediate Night:* Use the powers of a Corrupt wolf", "details": "", "win": "", "setup": "", "role": "Corrupt Wolf"}    
   ],
   [
     {"noun": "Mayor", "adjective": "Ruling", "power": 7, "basics": "*Passive:* Public vote counts as +2", "details": "If the %n becomes Mayor; their vote is counted as 3.", "win": "", "setup": "players set public_value %p 2", "role": ""},
-    {"noun": "Reporter", "adjective": "Reporting", "power": 5, "basics": "*Passive:* Learns information as a Reporter would", "details": "", "win": "", "setup": "", "role": "Reporter"},
     {"noun": "Trickster", "adjective": "Tricky", "power": -5, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""},
     {"noun": "Deceiver", "adjective": "Deceiving", "power": -2, "basics": "*Passive:* Public vote counts as -2", "details": "If the %n becomes Mayor; their vote is counted as -3.", "win": "", "setup": "players set public_value %p -2", "role": ""},
     {"noun": "Cheater", "adjective": "Cheating", "power": 4, "basics": "*Passive:* Public vote counts as -3", "details": "If the %n becomes Mayor; their vote is counted as -4.", "win": "", "setup": "players set public_value %p -3", "role": ""}
+  ],
+  [
+    {"noun": "Reporter", "adjective": "Reporting", "power": 2, "basics": "*Passive:* Learns information as a Reporter would", "details": "", "win": "", "setup": "", "role": "Reporter"},
+    {"noun": "Infiltrator", "adjective": "Wolfy", "power": 12, "basics": "*Passive:* Wolfpack Access", "details": "You pretend to be a werewolf, but it doesn't affect your win condition.", "win": "", "setup": "", "role": "Wolf"},
+    {"noun": "Observer", "adjective": "Perceptive", "power": 5, "basics": "*Passive* You learn the names of everyone who visits you.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Dust Collector", "adjective": "Dusty", "power": 0, "basics": "*Passive* Players who visit you get powdered.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Thief", "adjective": "Thieving", "power": 7, "basics": "*On Attack:* Switch roles with attacker (once)", "details": "", "win": "", "setup": "", "role": ""}
   ]
 ]
 
