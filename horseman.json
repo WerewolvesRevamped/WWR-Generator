@@ -1,0 +1,50 @@
+{
+default: {"noun": "of Horses", "adjective": "Horseman", power: 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""}
+
+abilities_names: [
+  "Active Dooming Effect",
+  "Extra Ability - Dooming Effect",
+  "Extra Ability - Misc",
+  "Passive"
+],
+
+abilities: [
+  [
+    {"noun": "of Horses", "adjective": "Horseman", power: 3, "basics": "*Immediate Night:* Doom a player", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Stallions", "adjective": "Equestrian", power: 5, "basics": "*Immediate Night:* Doom two players", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Doomsday", "adjective": "Doombringer", power: 3, "basics": "*Immediate Day:* Doom a player", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  
+  [
+    {"noun": "of Pestilence", "adjective": "White Horse", power: 3, "basics": "*Dooming Effect:* Role Blocking (HoP)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of War", "adjective": "Red Horse", power: 1, "basics": "*Dooming Effect:* Take vote/Election Block (HoW)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Famine", "adjective": "Black Horse", power: 1, "basics": "*Dooming Effect:* Disguise (HoF)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Death", "adjective": "Pale Horse", power: 3, "basics": "*Dooming Effect:* Delayed Death (HoD)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Conquest", "adjective": "Pink Horse", power: 4, "basics": "*Dooming Effect:*  Role Blocking (HoP) + Take vote/Election Block (HoW)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Misery", "adjective": "Gray Horse", power: 4, "basics": "*Dooming Effect:*  Role Blocking (HoP) + Disguise (HoF)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Starvation", "adjective": "Crimson Horse", power: 2, "basics": "*Dooming Effect:* Take vote/Election Block (HoW) + Disguise (HoF)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Rainbows", "adjective": "Prismatic Horse", power: 5, "basics": "*Dooming Effect:* You may use any of the four effects once. When all are used up you can repeat this.", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  
+  [
+    {"noun": "of Friendship", "adjective": "Rider", power: 3, "basics": "*On Unite:* Immediately doom another player", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Unity", "adjective": "Jockey", power: 1, "basics": "*Start:* Start out united", "details": "", "win": "", "setup": "", "role": "Apocalyptic Horseman"},
+    {"noun": "of Enlistment", "adjective": "Dullahan", power: 10, "basics": "*On doomed death:* First player who was doomed by you to die at night, becomes a Horseman.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Stillness", "adjective": "Rocking Horse", power: 4, "basics": "*Immediate Night:* If you do not doom, all visitors become doomed instead", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  
+  [
+    {"noun": "of Strength", "adjective": "Cavalryman", power: 3, "basics": "*On Attack:* Escape once and doom attacker", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Decapitation", "adjective": "Headless Horseman", power: 2, "basics": "*On Lynch:* Doom/unite everyone who voted to lynch you", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Retribution", "adjective": "Jouster", power: 1, "basics": "*On Death:* Unite all remaining Horseman", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Knowledge", "adjective": "Wise Zebra", power: 3, "basics": "*Passive:* Learn the name of every player that is doomed", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Wonder", "adjective": "Magical Unicorn", power: 1, "basics": "*Passive:* When all players are doomed, all Horseman are united", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Paranoia", "adjective": "Tall Giraffe", power: 1, "basics": "*Passive:* When a doomed player visits you, you are told their name", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Flight", "adjective": "Winged Pegasus", power: 6, "basics": "*On Lynch:* Lynch ignored, next highest person (if applicable) lynched instead (multi use)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "of Depression", "adjective": "Cynical Donkey", power: -4, "basics": "*Passive:* Start with 2 votes on public polls", "details": "", "win": "", "setup": "players set public_votes %p 2", "role": ""}
+  ]
+
+]
+
+
+}
