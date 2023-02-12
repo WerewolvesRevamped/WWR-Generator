@@ -20,10 +20,10 @@
 
 "abilities": [
   [
-    {"noun": "Angel", "adjective": "Angelic", "power": 8, "basics": "*Passive:* Start with -2 votes on public polls", "details": "", "win": "The %n wins if they are lynched.", "setup": "players set public_votes %p -2", "role": ""},
-    {"noun": "Despot", "adjective": "Despot", "power": 5, "basics": "*Passive:* Start with -2 votes on public polls", "details": "", "win": "The %n wins if they become Mayor.", "setup": "players set public_votes %p -2", "role": ""},
-    {"noun": "Anchorwoman", "adjective": "Fake news", "power": 5, "basics": "", "details": "", "win": "The %n wins if they become Reporter. All current messages in the Reporter channel at time of ascension are cleared.", "setup": "", "role": ""},
-    {"noun": "Golem", "adjective": "Golem", "power": 6, "basics": "*Immediate Night:* Protect a player\n*Passive*: Start with +1 votes on all public polls", "details": "", "win": "The %n wins if they become Guardian.", "setup": "players set public_votes %p +1", "role": ""},
+    {"noun": "Angel", "adjective": "Angelic", "power": 8, "basics": "*Passive:* Start with -2 votes on public polls", "details": "", "win": "The %n wins if they are lynched. When that happens they kill a target.", "setup": "players set public_votes %p -2", "role": ""},
+    {"noun": "Despot", "adjective": "Despot", "power": 5, "basics": "*Passive:* Start with -2 votes on public polls", "details": "", "win": "The %n wins if they become Mayor. The next election is cancelled.", "setup": "players set public_votes %p -2", "role": ""},
+    {"noun": "Anchorwoman", "adjective": "Fake News", "power": 5, "basics": "", "details": "", "win": "The %n wins if they become Reporter. All current messages in the Reporter channel at time of ascension are cleared.", "setup": "", "role": ""},
+    {"noun": "Golem", "adjective": "Golem", "power": 6, "basics": "*Immediate Night:* Protect a player\n*Passive*: Start with +1 votes on all public polls", "details": "", "win": "The %n wins if they become Guardian. All players that didnt vote for %n are protected for the next night.", "setup": "players set public_votes %p 1", "role": ""},
     {"noun": "Anarchist", "adjective": "Anarchist", "power": 7, "basics": "*Passive:* Start with 4 votes on public polls", "details": "", "win": "The %n wins if they do not gain any elected roles. Elected roles gained while being lynched count.", "setup": "players set public_votes %p 4", "role": ""},
     {"noun": "Lover", "adjective": "Loving", "power": 9, "basics": "", "details": "", "win": "The %n wins if the player above them in the list wins.", "setup": "", "role": ""},
     {"noun": "Lover", "adjective": "Loving", "power": 9, "basics": "", "details": "", "win": "The %n wins if the player below them in the list wins.", "setup": "", "role": ""},
