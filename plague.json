@@ -9,7 +9,7 @@
   
 "win_condition": "0) You win when only unaligned and Plague team players are remaining",
   
-"default": {"noun": "Plaguebearer", "adjective": "Plagued", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+"default": {"noun": "Plague Bearer", "adjective": "Plagued", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
 
 "abilities_names": [
   "Plague Ability"
@@ -19,6 +19,14 @@
 ],
 
 "abilities": [
-]
-
+  {"noun": "Plague Bearer", "adjective": "Plagued", "power": 4, "basics": "*Immediate Night* Plague 1 player", "details": "", "win": "", "setup": "", "role": ""},
+  {"noun": "Infector", "adjective": "Infected", "power": 6, "basics": "*Immediate Night* Plague 2 players", "details": "", "win": "", "setup": "", "role": ""},
+  {"noun": "Pusswalker", "adjective": "Puss filled", "power": 5, "basics": "*Imediate Day* Plague 1 player", "details": "", "win": "", "setup": "", "role": ""},
+  {"noun": "Patient Zero", "adjective": "Indexical", "power": 2, "basics": "*End Night* Plague 1 player", "details": "", "win": "", "setup": "", "role": ""},
+  {"noun": "Plague Carrier", "adjective": "Contagious", "power": 1, "basics": "Promote to Plague Bearer", "details": "This will occur on there being no more roles that can infect players, you will gain the Plague 1 player immediate night trait", "win": "", "setup": "", "role": ""},
+],
+[
+  {"noun": "Plagueseer", "adjective": "Plagueseeing", "power": 2, "basics": "*On Plague* learn the role of the player you plagued", "details": "This is affected by weak disguises", "win": "", "setup": "", "role": ""},
+  {"noun": "Vomit Wretch", "adjective": "Puking", "power": 2, "basics": "*On Plague* disguise the player as your role", "details": "", "win": "", "setup": "", "role": ""},
+  {"noun": "Fever Crone", "adjective": "Delusional", "power": 3, "basics": "*On Plague* Prevent Player from voting", "details": "This will last until they die from plague", "win": "", "setup": "", "role": ""},
 }
