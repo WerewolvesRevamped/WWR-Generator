@@ -1,0 +1,66 @@
+{
+"generator_settings": {
+  "start_power": -20,
+  "minimum_power": -5,
+  "maximum_power": 10,
+  "double_name": true,
+  "random_abilities": false 
+},
+  
+"win_condition": "",
+  
+"default": {"noun": "Werewolf", "adjective": "White", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+
+"abilities_names": [
+  "Win Condition",
+  "Kill Ability",
+  "Additional Ability",
+  "Passive",
+  "Vote Adjustments"
+],
+
+"abilities": [
+  [
+    {"noun": "Werewolf", "adjective": "White", "power": 5, "basics": "", "details": "", "win": "It is the %n’s goal to win the game completely alone; even the other werewolves must die.", "setup": "", "role": "White Werewolf"},
+    {"noun": "Werewolf", "adjective": "Gray", "power": 10, "basics": "", "details": "", "win": "It is the %n’s goal to win alone; or with just one other member of the wolfpack remaining. If the win condition of the %n is triggered; all remaining players win.", "setup": "", "role": "White Werewolf"},
+    {"noun": "Lone Werewolf", "adjective": "Lone White", "power": 0, "basics": "", "details": "", "win": "It is the %n’s goal to win the game completely alone; even the other werewolves must die.", "setup": "", "role": ""},
+    {"noun": "Werewolf", "adjective": "Invisible", "power": 15, "basics": "", "details": "", "win": "It is the %n’s goal to win with the Town, however Town doesn’t win with the %n.", "setup": "", "role": "White Werewolf"}
+  ],
+  [
+    {"noun": "Werewolf", "adjective": "Whitish", "power": 4, "basics": "*Odd Numbered Nights:* Attack member of wolfpack", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Werewolf", "adjective": "Grayish", "power": 4, "basics": "*Even Numbered Nights:* Attack member of wolfpack", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Werekiller", "adjective": "Dark", "power": 10, "basics": "*End Night:* Attack a member of wolfpack", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Weremurderer", "adjective": "Dark Gray", "power": 12, "basics": "*Immediate Day:* Attack a member of wolfpack", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Wereassassin", "adjective": "Hidden", "power": 10, "basics": "*End Night:* Attack a player that is not in the wolfspack", "details": "Once the wolfspack is disbanded you will be unable to use the wolfpack kill as the wolfpack will be disbanded.", "win": "", "setup": "", "role": ""},
+    {"noun": "Werewolf", "adjective": "Rainbow", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Disguiser", "adjective": "Camouflage", "power": 7, "basics": "*Immediate Day:* Disguise a player", "details": "All players lose their disguise at the end of the night.", "win": "", "setup": "", "role": ""},
+    {"noun": "Warlock", "adjective": "Magenta", "power": 6, "basics": "*Immediate Night:* Check a players role", "details": "The %n will see SoloWWW’s as a random Werewolf role.", "win": "", "setup": "", "role": ""},
+    {"noun": "Saboteur", "adjective": "Purple", "power": 4, "basics": "*Immediate Night:* Saboteur Wolf", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Infected Wolf", "adjective": "Infected", "power": -8, "basics": "*Immediate Night:* Turn a player into a random wolf role", "details": "You have to do this. Members of the wolfpack can’t be infected", "win": "", "setup": "", "role": ""},
+    {"noun": "Stalker", "adjective": "Stalking", "power": 6, "basics": "*Immediate Night:* Stalker Wolf", "details": "", "win": "", "setup": "", "role": "Stalker Wolf"},
+    {"noun": "Psychic", "adjective": "Cyan", "power": 6, "basics": "*Immediate Night:* Psychic Wolf", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Werebeast", "adjective": "Turquoise", "power": 6, "basics": "*On Attack:* Escape once", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Weremonster", "adjective": "Blue", "power": 10, "basics": "*On Attack:* Escape twice", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Werunner", "adjective": "Magenta", "power": 3, "basics": "*During Even Phases:* Escape once", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Werunner", "adjective": "Magenta", "power": 3, "basics": "*During Odd Phases:* Escape once", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Werecub", "adjective": "Pink", "power": 2, "basics": "*On Death:* -1 kill for wolves in next night", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Hellhound", "adjective": "Red", "power": 3, "basics": "*Passive:* Part of hellhounds", "details": "All the Hellhounds have a secret channel where they can communicate with the other Hellhounds securely.", "win": "", "setup": "", "role": "Hellhound"},
+    {"noun": "Cult Impostor", "adjective": "Cheating", "power": 7, "basics": "*Passive:* Part of the Cult", "details": "Pretends to be a cult member and can vote in the cult poll, however if there are no actual Cult Members left the Cult is considered disbanded.", "win": "", "setup": "", "role": "Cult Member"}
+  ],
+  [
+    {"noun": "Beta Wolf", "adjective": "Yellow", "power": 2, "basics": "*Passive:* Private vote counts as 2", "details": "", "win": "", "setup": "players set private_value %p 2", "role": ""},
+    {"noun": "Alpha Wolf", "adjective": "Orange", "power": 5, "basics": "*Passive:* Private vote counts as 3", "details": "", "win": "", "setup": "players set private_value %p 3", "role": ""},
+    {"noun": "Omega Wolf", "adjective": "Green", "power": -3, "basics": "*Passive:* Private vote counts as -1", "details": "", "win": "", "setup": "players set private_value %p -1", "role": ""},
+    {"noun": "Super Wolf", "adjective": "Colored", "power": 10, "basics": "*Passive:* Private vote counts as 5", "details": "", "win": "", "setup": "players set private_value %p 5", "role": ""},
+    {"noun": "Mayor Wolf", "adjective": "Ruling", "power": 7, "basics": "*Passive:* Public vote counts as +2", "details": "If the %n becomes Mayor; their vote is counted as 3.", "win": "", "setup": "players set public_value %p 2", "role": ""},
+    {"noun": "Trickster Wolf", "adjective": "Tricky", "power": -5, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""},
+    {"noun": "Deceiver Wolf", "adjective": "Deceiving", "power": -2, "basics": "*Passive:* Public vote counts as -2", "details": "If the %n becomes Mayor; their vote is counted as -3.", "win": "", "setup": "players set public_value %p -2", "role": ""},
+    {"noun": "Cheater Wolf", "adjective": "Cheating", "power": 4, "basics": "*Passive:* Public vote counts as -3", "details": "If the %n becomes Mayor; their vote is counted as -4.", "win": "", "setup": "players set public_value %p -3", "role": ""}
+  ]
+]
+
+}
