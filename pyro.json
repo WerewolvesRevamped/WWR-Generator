@@ -69,7 +69,8 @@
     {"noun": "Fire", "adjective": "Singeing", "power": 1, "basics": "*On Lynch:* Powder everyone that voted for you.", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Wildfire", "adjective": "Charring", "power": 9, "basics": "*On Death:* Ignites.", "details": "Everyone is ignited just before you die, not after.", "win": "", "setup": "", "role": ""},
     {"noun": "Blaze", "adjective": "Blazing", "power": 12, "basics": "*On Death:* Escape & Ignite (once)", "details": "If you are lynched you don’t escape, but still ignite just before you die.", "win": "", "setup": "", "role": ""},
-    {"noun": "Pyronner", "adjective": "Pyronning", "power": 7, "basics": "*On Attack:* Escape once & powder attacker", "details": "You will be informed who the attacker was.", "win": "", "setup": "", "role": ""}
+    {"noun": "Pyronner", "adjective": "Pyronning", "power": 7, "basics": "*On Attack:* Escape once & powder attacker", "details": "You will be informed who the attacker was.", "win": "", "setup": "", "role": ""},
+    {"noun": "Oil", "adjective": "Manufactured", "power": -3, "basics": "A subject in the laboratory.", "details": "It is possible that a Mad Scientist doesn't exist.", "win": "", "setup": "", "role": "!_Target"}
   ]
 ]
 
