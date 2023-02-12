@@ -78,7 +78,7 @@
     {"noun": "Werewolf", "adjective": "Wolfish", "power": 3, "basics": "", "details": "", "win": "", "setup": "", "role": "Wolf"},
     {"noun": "Bloody Butcher", "adjective": "Bloody", "power": 8, "basics": "*Passive:* Bloody Butcher", "details": "", "win": "", "setup": "", "role": "Butcher"},
     {"noun": "Hellhound", "adjective": "Hellish", "power": 5, "basics": "*Passive:* Hellhound", "details": "All the Hellhounds have a secret channel where they can communicate with the other Hellhounds securely.", "win": "", "setup": "", "role": "Hellhound"},
-    {"noun": "Bloody Butcher Hellhound", "adjective": "Bloody Hellish", "power": 10, "basics": "*Passive:* Hellhound & Bloody Butcher", "details": "All the Hellhounds have a secret channel where they can communicate with the other Hellhounds securely.", "win": "", "setup": "", "role": "Butcher#Hellhound"},
+    {"noun": "Bloody Hellhound", "adjective": "Bloody Hellish", "power": 10, "basics": "*Passive:* Hellhound & Bloody Butcher", "details": "All the Hellhounds have a secret channel where they can communicate with the other Hellhounds securely.", "win": "", "setup": "", "role": "Butcher#Hellhound"},
     {"noun": "Bloody Baker", "adjective": "Bloody", "power": 17, "basics": "*Passive:* Bloody Butcher but for Bakers", "details": "", "win": "", "setup": "", "role": "Baker"},
     {"noun": "Bloody Juror", "adjective": "Bloody", "power": 15, "basics": "*Passive:* Bloody Butcher but for Jury", "details": "", "win": "", "setup": "", "role": "Juror"},
     {"noun": "Bloody Cult Member", "adjective": "Bloody", "power": 18, "basics": "*Passive:* Bloody Butcher but for Cult", "details": "", "win": "", "setup": "", "role": "Cult Member"},
