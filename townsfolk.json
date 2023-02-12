@@ -108,7 +108,7 @@
     {"noun": "Transporter", "adjective": "Transporting", "power": 21, "basics": "*Immediate Day:* Choose two targets. For the rest of the day and following night, actions and kills directed towards a target will instead hit your other target", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Hairdresser", "adjective": "Hairdresser", "power": 19, "basics": "*Immediate Day:* Barber (twice)", "details": "The %n chooses if they want to reveal themselves for their day kill.", "win": "", "setup": "", "role": ""},
     {"noun": "Sorceress", "adjective": "Magical", "power": 19, "basics": "*Immediate Day:* Sorceress", "details": "The %n’s target may choose one of their day/night abilities to do twice.", "win": "", "setup": "", "role": ""},
-    {"noun": "Devil Wannabe", "adjective": "Devil-impersonating", "power": 12, "basics": "*End Day:* Send out a fake devil’s wager", "details": "The devil’s wager doesn’t actually work and will silently fail. Investigations will show a role you choose.", "win": "", "setup": "", "role": "Devil"}
+    {"noun": "Devil Wannabe", "adjective": "Devil-impersonating", "power": 12, "basics": "*End Day:* Send out a fake devil’s wager", "details": "The devil’s wager doesn’t actually work and will silently fail. Investigations will show a role you choose.", "win": "", "setup": "", "role": "Lone Devil"}
   ],
   [
     {"noun": "Angel", "adjective": "Angelic", "power": 15, "basics": "*Passive:* Start with -2 votes on public polls", "details": "", "win": "You additionally also win if you are lynched.", "setup": "players set public_votes %p -2", "role": ""},
