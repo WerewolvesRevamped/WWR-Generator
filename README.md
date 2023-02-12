@@ -2,7 +2,7 @@
 Data for the WWR role generator
 
 # Format
-  
+```
 {  
 "generator_settings": {  
   "start_power": <Integer>, // the starting value of the role, each ability adds or substracts to it  
@@ -36,3 +36,4 @@ Data for the WWR role generator
 ]  
   
 }  
+```
