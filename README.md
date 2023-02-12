@@ -1,5 +1,5 @@
 # WWR-Generator
-Data for the WWR role generator
+Data for the [WWR role generator](https://www.crowdford.com/*/wwr/)
 
 # Format
 ```
