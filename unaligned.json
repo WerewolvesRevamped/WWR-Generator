@@ -63,7 +63,7 @@
   ],
   [
     {"noun": "Mayor", "adjective": "Ruling", "power": 7, "basics": "*Passive:* Public vote counts as +2", "details": "If the %n becomes Mayor; their vote is counted as 3.", "win": "", "setup": "players set public_value %p 2", "role": ""},
-    {"noun": "Reporter", "adjective": "Reporting", "power": 5, "basics": "*Passive:* Learns information as a Reporter would", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Reporter", "adjective": "Reporting", "power": 5, "basics": "*Passive:* Learns information as a Reporter would", "details": "", "win": "", "setup": "", "role": "Reporter"},
     {"noun": "Trickster", "adjective": "Tricky", "power": -5, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""},
     {"noun": "Deceiver", "adjective": "Deceiving", "power": -2, "basics": "*Passive:* Public vote counts as -2", "details": "If the %n becomes Mayor; their vote is counted as -3.", "win": "", "setup": "players set public_value %p -2", "role": ""},
     {"noun": "Cheater", "adjective": "Cheating", "power": 4, "basics": "*Passive:* Public vote counts as -3", "details": "If the %n becomes Mayor; their vote is counted as -4.", "win": "", "setup": "players set public_value %p -3", "role": ""}
