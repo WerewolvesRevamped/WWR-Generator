@@ -3,7 +3,7 @@
   "start_power": -15,
   "minimum_power": -5,
   "maximum_power": 10,
-  "double_name": true
+  "double_name": true,
   "random_abilities": false
 },
   
