@@ -50,7 +50,7 @@
     {"noun": "Werecub", "adjective": "Pink", "power": 2, "basics": "*On Death:* -1 kill for wolves in next night", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Hellhound", "adjective": "Red", "power": 3, "basics": "*Passive:* Part of hellhounds", "details": "All the Hellhounds have a secret channel where they can communicate with the other Hellhounds securely.", "win": "", "setup": "", "role": "Hellhound"},
     {"noun": "Cult Impostor", "adjective": "Cheating", "power": 7, "basics": "*Passive:* Part of the Cult", "details": "Pretends to be a cult member and can vote in the cult poll, however if there are no actual Cult Members left the Cult is considered disbanded.", "win": "", "setup": "", "role": "Cult Member"},
-    {"noun": "Wolf Subject", "adjective": "Red-Green", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
+    {"noun": "Wolf Subject", "adjective": "Red-Green", "power": -3, "basics": "A subject in the laboratory.", "details": "It is possible that a Mad Scientist doesn't exist.", "win": "", "setup": "", "role": "!_Target"}
   ],
   [
     {"noun": "Beta Wolf", "adjective": "Yellow", "power": 2, "basics": "*Passive:* Private vote counts as 2", "details": "", "win": "", "setup": "players set private_value %p 2", "role": ""},
