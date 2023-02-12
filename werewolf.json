@@ -57,7 +57,7 @@
     {"noun": "Oracle Wolf", "adjective": "Clear-sighted", "power": 19, "basics": "*Immediate Night:* Psychic Wolf for three players", "details": "SoloWWW’swill appear as a random werewolf role to this power; regardless of what they are checked as. You may guess abilities (like Runner), partial roles (like Lone or Firebird) or full roles (like Lone Firebird).", "win": "", "setup": "", "role": ""},
     {"noun": "Hunter Wolf", "adjective": "Hunting", "power": 10, "basics": "*End Night:** Attack a player", "details": "If they kill someone who isn’t on the Townsfolk team; the %n dies.", "win": "", "setup": "", "role": ""},
     {"noun": "Leader Wolf", "adjective": "Pack Leader", "power": 1, "basics": "*End Night:* May override the results of the wolfpack kill. (once)", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Supreme Alpha Wolf", "adjective": "Supreme Alpha", "power": 3, "basics": "*End Night:* May override the results of the wolfpack kill. (infinite use)", "details": "", "win": "", "setup": "", "role": ""}
+    {"noun": "Supreme Alpha Wolf", "adjective": "Supreme Alpha", "power": 5, "basics": "*End Night:* May override the results of the wolfpack kill. (infinite use)", "details": "", "win": "", "setup": "", "role": ""}
   ],
   [
     {"noun": "Werewolf", "adjective": "Wolfish", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": "Wolf"},
