@@ -1,4 +1,14 @@
 {
+"generator_settings": {
+  "start_power": -15,
+  "minimum_power": -5,
+  "maximum_power": 10,
+  "double_name": true
+  "random_abilities": false
+},
+  
+"win_condition": "0) You win when only Unaligned players; and players of the Horseman team remain. When dooming another Horseman it fails and you unite. When all players are doomed/united you gain the ability to kill a player each night.\n",
+  
 "default": {"noun": "of Horses", "adjective": "Horseman", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
 
 "abilities_names": [
