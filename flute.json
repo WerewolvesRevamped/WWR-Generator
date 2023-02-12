@@ -1,0 +1,68 @@
+{
+"generator_settings": {
+  "start_power": -8,
+  "minimum_power": -5,
+  "maximum_power": 10,
+  "double_name": true,
+  "random_abilities": false 
+},
+  
+"win_condition": "0) You win when only Unaligned players; enchanted players; and players of the Flute Player Team remain.\n",
+  
+"default": {"noun": "Player", "adjective": "Flute", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+
+"abilities_names": [
+  "Flute Ability",
+  "Extra Ability - Escape, Disguise, Invest, Etc",
+  "Extra Ability - Election/Voting, Attacks, Etc",
+  "Enchant Related",
+  "Passive - Votes, Escape...?"
+],
+
+"abilities": [
+  [
+    {"noun": "Player", "adjective": "Flute", "power": 14, "basics": "*Immediate Night:* Enchant three players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "Musician", "adjective": "Piano", "power": 9, "basics": "*Immediate Night:* Enchant two players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "Writer", "adjective": "Keyboard", "power": 10, "basics": "*Immediate Day:* Enchant two players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "DJ", "adjective": "Ukulele", "power": 4, "basics": "*Immediate Night:* Enchant one players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "Songsmith", "adjective": "Bells", "power": 5, "basics": "*Immediate Day:* Enchant one players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "Composer", "adjective": "Guitar", "power": 7, "basics": "*Any Time:* Join the enchant channel\n*Immediate Night*: Enchant one player", "details": "", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "Soloist", "adjective": "Lone", "power": 5, "basics": "*Immediate Night:* Enchant two players", "details": "The %n is not part of the Flute Player group; but wins with them.", "win": "", "setup": "", "role": ""},
+    {"noun": "Connoisseur", "adjective": "Microphone", "power": 2, "basics": "*Immediate Night:* Enchant two players, then Unenchant one player", "details": "The player that is unenchanted has to already have been enchanted, if there’s no already enchanted players nobody is unenchanted.", "win": "", "setup": "", "role": "Flute Player"},
+    {"noun": "Tunesmith", "adjective": "Cymbal", "power": 12, "basics": "*Any Time:* Join the enchant channel\n*Immediate Night*: Enchant two players", "details": "", "win": "", "setup": "", "role": "Flute Player"}
+  ],
+  [
+    {"noun": "Artist", "adjective": "Drums", "power": 3, "basics": "*Immediate Night:* Check one player’s role", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Performer", "adjective": "Trombone", "power": 4, "basics": "*On Attack:* Escape once and enchant attacker", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Bassist", "adjective": "Trumpet", "power": 9, "basics": "*Immediate Day:* Disguise two players", "details": "All players lose their disguise at the end of the night.", "win": "", "setup": "", "role": ""},
+    {"noun": "Piper", "adjective": "Cello", "power": 3, "basics": "*Immediate Day:* Disguise a player", "details": "All players lose their disguise at the end of the night.", "win": "", "setup": "", "role": ""},
+    {"noun": "Expert", "adjective": "Clarinet", "power": 10, "basics": "*On Visit:* Players that visit you are enchanted during the next day", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Opera Player", "adjective": "Harp", "power": 3, "basics": "*End Night:* Attack an enchanted player (once)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Opera Master", "adjective": "Trombone", "power": 5, "basics": "*End Night:* Attack an enchanted player (twice)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Listener", "adjective": "Banjo", "power": 5, "basics": "*End Night:* Unelect an enchanted player", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Artisian", "adjective": "Tambourine", "power": 5, "basics": "*End Night:* Sabotage an enchanted player", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Accapella", "adjective": "Accapellaist", "power": 15, "basics": "*Passive:* For every enchanted player currently alive: +1 public vote", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Entertainer", "adjective": "Accordion", "power": 5, "basics": "*On Enchanted Death:* When an enchanted player dies become immune against attacks in the next night", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Protective Artist", "adjective": "Protective", "power": -7, "basics": "*On Enchant:* Enchant players will be immune against attacks in the night that they got enchanted in", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Conductor", "adjective": "Tuba", "power": 3, "basics": "*On Enchant:* Disguise yourself as the last player you enchanted", "details": "Disguise lasts for the rest of the current phase and the next phase", "win": "", "setup": "", "role": ""},
+    {"noun": "Vocalist", "adjective": "Singing", "power": 4, "basics": "*On Enchant:* Learn the role of everyone you enchant", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Teacher", "adjective": "Xylophone", "power": 1, "basics": "*On Enchant:* Sends the player you’ve enchanted a message that they’ve been attacked but that they escaped at the end of the night", "details": "That message might not make any sense but it is sent without further explanation", "win": "", "setup": "", "role": ""},
+    {"noun": "Virtuoso", "adjective": "Harmonica", "power": 4, "basics": "*On Enchanted Visit:* If an enchanted player visits you they die (once)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Record Label", "adjective": "Record", "power": 8, "basics": "*On Enchanted Visit:* If an enchanted player visits you they die (twice)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Melodist", "adjective": "Melody", "power": 2, "basics": "*On Enchanted Visit:* If an enchanted player visits you are informed and learn their name", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Musician", "adjective": "Saxophone", "power": -5, "basics": "*Passive:* Public vote counts as -2", "details": "If the %n becomes Mayor; their vote is counted as -3.", "win": "", "setup": "players set public_value %p -2", "role": ""},
+    {"noun": "Performer", "adjective": "Violin", "power": -2, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""},
+    {"noun": "Election Fraud", "adjective": "Drums", "power": 3, "basics": "*Passive:* Public vote counts as 2", "details": "If the %n becomes Mayor; their vote is counted as 3.", "win": "", "setup": "players set public_value %p 2", "role": ""},
+    {"noun": "Running Musician", "adjective": "Fast", "power": 3, "basics": "*Passive:* Escape once", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Sprinting Musician", "adjective": "Acrobatic", "power": 5, "basics": "*Passive:* Escape twice", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Deflecting Musician", "adjective": "Lute", "power": 7, "basics": "*Passive:* Escape once and kill an enchanted player instead", "details": "", "win": "", "setup": "", "role": ""}
+  ]
+]
+
+}
