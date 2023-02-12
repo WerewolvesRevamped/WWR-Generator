@@ -77,7 +77,8 @@
     {"noun": "Infiltrator", "adjective": "Wolfy", "power": 12, "basics": "*Passive:* Wolfpack Access", "details": "You pretend to be a werewolf, but it doesn't affect your win condition.", "win": "", "setup": "", "role": "Wolf"},
     {"noun": "Observer", "adjective": "Perceptive", "power": 5, "basics": "*Passive* You learn the names of everyone who visits you.", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Dust Collector", "adjective": "Dusty", "power": 0, "basics": "*Passive* Players who visit you get powdered.", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Thief", "adjective": "Thieving", "power": 7, "basics": "*On Attack:* Switch roles with attacker (once)", "details": "", "win": "", "setup": "", "role": ""}
+    {"noun": "Thief", "adjective": "Thieving", "power": 7, "basics": "*On Attack:* Switch roles with attacker (once)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Hostage", "adjective": "Captured", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
   ]
 ]
 
