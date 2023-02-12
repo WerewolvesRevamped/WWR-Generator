@@ -1,0 +1,124 @@
+{
+"generator_settings": {
+  "start_power": -25,
+  "minimum_power": -20,
+  "maximum_power": 10,
+  "double_name": false,
+  "random_abilities": true
+},
+  
+"win_condition": "0) You win when only Unaligned players; and players of the Townsfolk Team remain.\n",
+  
+"default": {"noun": "Citizen", "adjective": "Civilian", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+
+"abilities_names": [
+  "Passive",
+  "Lynch React",
+  "Death React",
+  "Death Prevent",
+  "Night End",
+  "Night Immediate",
+  "Day End",
+  "Day Immediate",
+  "Win Conditions",
+  "Group"
+],
+
+"abilities": [
+  [
+    {"noun": "Mayor", "adjective": "Ruling", "power": 7, "basics": "*Passive:* Public vote counts as +2", "details": "If the %n becomes Mayor; their vote is counted as 3.", "win": "", "setup": "players set public_value %p 2", "role": ""},
+    {"noun": "Trickster", "adjective": "Tricky", "power": -5, "basics": "*Passive:* Public vote count as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""},
+    {"noun": "Deceiver", "adjective": "Deceiving", "power": -2, "basics": "*Passive:* Public vote count as -2", "details": "If the %n becomes Mayor; their vote is counted as -3.", "win": "", "setup": "players set public_value %p -2", "role": ""},
+    {"noun": "Cheater", "adjective": "Cheating", "power": 4, "basics": "*Passive:* Public vote count as -3", "details": "If the %n becomes Mayor; their vote is counted as -4.", "win": "", "setup": "players set public_value %p -3", "role": ""},
+    {"noun": "Bartender", "adjective": "Bartending", "power": 16, "basics": "*Passive:* Talk anonymously in tavern", "details": "", "win": "", "setup": "", "role": "Bartender"},
+    {"noun": "Child", "adjective": "Childish", "power": 7, "basics": "*On Death:* +1 lynch for next day", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Baby", "adjective": "Newborn", "power": 12, "basics": "*On Death:* +2 lynches for next day", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Fortune Apprentice", "adjective": "Apprenticing", "power": 10, "basics": "*Passive:* Turn into first TI that dies", "details": "At the start of the first day where a town investigative role died the previous day or night; or lost their role; the %n will become the role of the first town investigative role that died, or lost their role.", "win": "", "setup": "", "role": ""},
+    {"noun": "Town Crier", "adjective": "Neighborly", "power": 10, "basics": "*Start:* Know one Townsfolk’s role", "details": "The %n will be told the role of one random person from the Townsfolk team at the start of the game.", "win": "", "setup": "", "role": ""},
+    {"noun": "Loser", "adjective": "Losing", "power": -2, "basics": "*Passive:* Start with 2 votes on public polls", "details": "", "win": "", "setup": "players set public_votes %p 2", "role": ""},
+    {"noun": "Citizen", "adjective": "Alpha", "power": 4, "basics": "*Passive:* Private vote counts as +3", "details": "", "win": "", "setup": "players set private_value %p 3", "role": ""},
+    {"noun": "Fence", "adjective": "Fancy", "power": 2, "basics": "*Passive:* You are informed when an ability is used on you but not which.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Reporter", "adjective": "Reporting", "power": 4, "basics": "*Passive:* Gain access to an additional reporter channel.", "details": "", "win": "", "setup": "", "role": "Reporter"}
+  ],
+  [
+    {"noun": "Executioner", "adjective": "Executing", "power": 9, "basics": "*On Lynch:* Lynch somebody else instead (once)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Sprite", "adjective": "Blessed", "power": 4, "basics": "*On Lynch:* Attack target if they voted for you", "details": "If the %n is lynched by unusual means the player responsible for this will die with the %n.", "win": "", "setup": "", "role": ""},
+    {"noun": "Idiot", "adjective": "Idiotic", "power": 4, "basics": "*On Lynch:* Survive the first time.", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Huntress", "adjective": "Hunting", "power": 10, "basics": "*On Death:* Attack target", "details": "When the %n dies in any way other than by directly being lynched; the target will die along with the %n.", "win": "", "setup": "", "role": ""},
+    {"noun": "Trapper", "adjective": "Trapper", "power": 15, "basics": "*On Death:* Attack two targets", "details": "When the %n dies in any way other than by directly being lynched; the targets will die along with the %n.", "win": "", "setup": "", "role": ""},
+    {"noun": "Journalist", "adjective": "Journal-writing", "power": 3, "basics": "*On Death:* Give journal to targetted role", "details": "The %n selects a role by saying the noun of a role name.", "win": "", "setup": "", "role": "Journalist"},
+    {"noun": "Macho", "adjective": "Macho", "power": 15, "basics": "*On Death:* Know attacker. Survive until night starts.", "details": "If the %n is killed by the lynch; they will die as normal.", "win": "", "setup": "", "role": ""},
+    {"noun": "Scientist", "adjective": "Mad", "power": 7, "basics": "*On Death:* Attack targetted subject", "details": "", "win": "", "setup": "", "role": "Mad Scientist"},
+    {"noun": "Shape Shifter", "adjective": "Shape Shifting", "power": 15, "basics": "*On Death:* Turn into a different random townsfolk role", "details": "If the %n is killed by the lynch; they will die as normal.", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Runner", "adjective": "Running", "power": 5, "basics": "*On Attack:* Escape once.", "details": "%n is informed if they were attacked. If a %n evades an attack; the attackers are told why.", "win": "", "setup": "", "role": ""},
+    {"noun": "Acrobat", "adjective": "Acrobatic", "power": 10, "basics": "*On Attack:* Escape twice.", "details": "%n is informed if they were attacked. If a %n evades an attack; the attackers are told why.", "win": "", "setup": "", "role": ""},
+    {"noun": "Dancer", "adjective": "Dancing", "power": 15, "basics": "*On Attack:* Escape thrice.", "details": "%n is informed if they were attacked. If a %n evades an attack; the attackers are told why.", "win": "", "setup": "", "role": ""},
+    {"noun": "Cursed Civilian", "adjective": "Cursed", "power": -10, "basics": "*On Wolf Attack:* Turn into Wolf", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Thief", "adjective": "Thieving", "power": 15, "basics": "*On Attack:* Switch roles with attacker (once)", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Assassin", "adjective": "Assassinating", "power": 12, "basics": "*End Night >1:* Attack a player (three times)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Soldier", "adjective": "Fighting", "power": 9, "basics": "*End Night >1:* Attack a player (two times)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Killer", "adjective": "Killing", "power": 7, "basics": "*End Night >1:* Attack a player (one times)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Slayer", "adjective": "Slaying", "power": 16, "basics": "*End Night >1:* Attack a player (four times)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Priest", "adjective": "Pious", "power": 10, "basics": "*End Night:* Use holy water on player ", "details": "If that player is werewolf/solo, that player will die. Otherwise, the %n dies.", "win": "", "setup": "", "role": ""},
+    {"noun": "High Priest", "adjective": "Sanctimonious", "power": 20, "basics": "*End Night:* Use holy water on two players", "details": "If that player is werewolf/solo, that player will die. Otherwise, the %n dies.", "win": "", "setup": "", "role": ""},
+    {"noun": "Witch", "adjective": "Witching", "power": 14, "basics": "*End Night:* Protect three players from any attack for one night (once) and attack one player (once).", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Guardian", "adjective": "Guarding", "power": 9, "basics": "*End Night:* Protect a player from the next lynch", "details": "The %n can not protect the same player; from the lynch; two times in a row.", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Aura Teller", "adjective": "Aura Telling", "power": 7, "basics": "*Night Immediate:* Check player for threat (aura teller)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Aura Seer", "adjective": "Aura Seeing", "power": 14, "basics": "*Night Immediate:* Check two players for threat (aura teller)", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Coroner", "adjective": "Coroner", "power": 6, "basics": "*Night Immediate:* Check death reason of dead player", "details": "The %n will be told how that specific player died; if multiple causes of death were present; then all causes will be revealed to the %n.", "win": "", "setup": "", "role": ""},
+    {"noun": "Crowd Examiner", "adjective": "Examining", "power": 20, "basics": "*Night Immediate:* Guess four players roles", "details": "Each correct guess is confirmed. Tanner and Flute Player influences are applied. You may guess abilities (like Runner), partial roles (like Lone or Firebird) or full roles (like Lone Firebird).", "win": "", "setup": "", "role": ""},
+    {"noun": "Crowd Seeker", "adjective": "Seeking", "power": 17, "basics": "*Night Immediate:* Guess three players roles", "details": "Each correct guess is confirmed. Tanner and Flute Player influences are applied. You may guess abilities (like Runner), partial roles (like Lone or Firebird) or full roles (like Lone Firebird).", "win": "", "setup": "", "role": ""},
+    {"noun": "Crowd Finder", "adjective": "Finding", "power": 14, "basics": "*Night Immediate:* Guess two players roles", "details": "Each correct guess is confirmed. Tanner and Flute Player influences are applied. You may guess abilities (like Runner), partial roles (like Lone or Firebird) or full roles (like Lone Firebird).", "win": "", "setup": "", "role": ""},
+    {"noun": "Crowd Chaser", "adjective": "Chasing", "power": 11, "basics": "*Night Immediate:* Guess one players role", "details": "Each correct guess is confirmed. Tanner and Flute Player influences are applied. You may guess abilities (like Runner), partial roles (like Lone or Firebird) or full roles (like Lone Firebird).", "win": "", "setup": "", "role": ""},
+    {"noun": "Fortune Teller", "adjective": "Fortune Telling", "power": 15, "basics": "*Night Immediate:* Check a players role", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Crystal Ball Gazer", "adjective": "Crystal Ball Gazing", "power": 23, "basics": "*Night Immediate:* Check two players role", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Grandma", "adjective": "Grandmotherly", "power": 13, "basics": "*Night Immediate:* Grandma up to two players", "details": "", "win": "", "setup": "", "role": "Grandma"},
+    {"noun": "Grandpa", "adjective": "Grandfatherly", "power": 8, "basics": "*Night Immediate:* Grandma up to one player", "details": "", "win": "", "setup": "", "role": "Grandma"},
+    {"noun": "Hooker", "adjective": "Prostituting", "power": 18, "basics": "*Night Immediate:* Hooker", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Huntsman", "adjective": "Hunting", "power": 9, "basics": "*Night Immediate:* Check if one players is in wolfpack", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Innkeeper", "adjective": "Innkeeping", "power": 6, "basics": "*Night Immediate:* Innkeeper", "details": "Each night; the %n may check any noun or adjective to determine the number of players currently alive with that word in their role.", "win": "", "setup": "", "role": ""},
+    {"noun": "Stalker", "adjective": "Stalking", "power": 10, "basics": "*Night Immediate:* Stalker", "details": "Each night; the %n may threaten a player. The morning after; that player has 2 more invisible votes against them on the daily death poll.", "win": "", "setup": "", "role": "Stalker"},
+    {"noun": "Chaser", "adjective": "Chasing", "power": 18, "basics": "*Night Immediate:* Stalker for 2 players", "details": "Each night; the %n may threaten two players. The morning after; these players have 2 more invisible votes against them on the daily death poll.", "win": "", "setup": "", "role": "Stalker"},
+    {"noun": "Manipulator", "adjective": "Manipulating", "power": 18, "basics": "*Night Immediate:* Stalker for 3 players", "details": "Each night; the %n may threaten a player. The morning after; that player has 3 more invisible votes against them on the daily death poll.", "win": "", "setup": "", "role": "Stalker"},
+    {"noun": "Hex", "adjective": "Hexing", "power": 8, "basics": "*Night Immediate:* Protect three players from any kill for one night (once)", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Medium", "adjective": "Medium", "power": 7, "basics": "*End Day:* Medium", "details": "", "win": "", "setup": "", "role": "Medium"},
+    {"noun": "Knight", "adjective": "Royal", "power": 10, "basics": "*Day Immediate:* Cancel Lynch", "details": "Canceling the lynch is an immediate effect. However; the fact that the lynch has been canceled will only be revealed at the end of the day.", "win": "", "setup": "", "role": ""},
+    {"noun": "Protector", "adjective": "Protecting", "power": 15, "basics": "*End Day:* Protect one player from death for one night", "details": "The %n can not protect the same player two times in a row.", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Barber", "adjective": "Barber", "power": 13, "basics": "*Immediate Day:* Barber", "details": "The %n chooses if they want to reveal themselves for their day kill. ", "win": "", "setup": "", "role": ""},
+    {"noun": "Hairdresser", "adjective": "Hairdresser", "power": 19, "basics": "*Immediate Day:* Barber (twice)", "details": "The %n chooses if they want to reveal themselves for their day kill.", "win": "", "setup": "", "role": ""},
+    {"noun": "Sorceress", "adjective": "Magical", "power": 19, "basics": "*Immediate Day:* Sorceress", "details": "The %n’s target may choose one of their day/night abilities to do twice.", "win": "", "setup": "", "role": ""},
+    {"noun": "Devil Wannabe", "adjective": "Devil-impersonating", "power": 12, "basics": "*End Day:* Send out a fake devil’s wager", "details": "The devil’s wager doesn’t actually work and will silently fail. Investigations will show a role you choose.", "win": "", "setup": "", "role": "Devil"}
+  ],
+  [
+    {"noun": "Angel", "adjective": "Angelic", "power": 15, "basics": "*Passive:* Start with -2 votes on public polls", "details": "", "win": "You additionally also win if you are lynched.", "setup": "players set public_votes %p -2", "role": ""},
+    {"noun": "Despot", "adjective": "Despot", "power": 12, "basics": "*Passive:* Start with -2 votes on public polls", "details": "", "win": "You additionally also win if you become Mayor.", "setup": "players set public_votes %p -2", "role": ""},
+    {"noun": "Anarchist", "adjective": "Anarchist", "power": 10, "basics": "*Passive:* Start with 4 votes on public polls", "details": "", "win": "You additionally also win if you do not gain any elected roles. Elected roles you gain while being lynched count.", "setup": "players set public_votes %p 4", "role": ""},
+    {"noun": "Lover", "adjective": "Loving", "power": 10, "basics": "", "details": "", "win": "You additionally also win if the player above you in the list wins. If their win condition requires them to kill you; their team can still win even if you are alive.", "setup": "", "role": ""},
+    {"noun": "Lover", "adjective": "Loving", "power": 10, "basics": "", "details": "", "win": "You additionally also win if the player below you in the list wins. If their win condition requires them to kill you; their team can still win even if you are alive.", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Baker", "adjective": "Baking", "power": 8, "basics": "*Passive:* Baker", "details": "", "win": "", "setup": "", "role": "Baker"},
+    {"noun": "Butcher", "adjective": "Butchering", "power": 4, "basics": "*Passive:* Butcher", "details": "", "win": "", "setup": "", "role": "Butcher"},
+    {"noun": "Juror", "adjective": "Judging", "power": 10, "basics": "*Passive:* Juror", "details": "", "win": "", "setup": "", "role": "Juror"},
+    {"noun": "Merchant", "adjective": "Merchantly", "power": 12, "basics": "*Passive:* Baker & Butcher", "details": "", "win": "", "setup": "", "role": "Butcher#Baker"},
+	  {"noun": "Jack of all Trades", "adjective": "Knowledgeable", "power": 18, "basics": "*Passive:* Baker, Butcher, Juror & Cult Member", "details": "", "win": "", "setup": "", "role": "Butcher#Baker#Cult Member#Juror"},
+    {"noun": "Cult Leader", "adjective": "Cult Leading", "power": 6, "basics": "*Passive:* Cult Leader", "details": "The Cult can attack until the last Cult Leader dies.", "win": "", "setup": "", "role": "Cult Leader"},
+    {"noun": "Cult Member", "adjective": "Cultist", "power": 7, "basics": "*Passive:* Cult Member", "details": "The Cult can attack until the last Cult Leader dies.", "win": "", "setup": "", "role": "Cult Member"},
+    {"noun": "Cult Acolyte", "adjective": "Acolytic", "power": 8, "basics": "*Passive:* Cult Acolyte", "details": "The Cult can attack until the last Cult Leader dies.", "win": "", "setup": "", "role": "Cult Acolyte"},
+    {"noun": "Target", "adjective": "Targeted", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
+  ]
+]
+
+}
