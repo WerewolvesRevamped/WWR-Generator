@@ -40,7 +40,7 @@
   ],
   [
     {"noun": "Tanner", "adjective": "Tanning", "power": 17, "basics": "*Immediate Day:* Disguise two players", "details": "All players lose their disguise at the end of the night.", "win": "", "setup": "", "role": ""},
-    {"noun": "Disguised Fox", "adjective": "Foxy", "power": 9, "basics": "*Immediate Day:* Select a diguise for yourself. (Strong Disguise)", "details": "Wolfpack is informed at the start of the night about the name of your disguise, with no elaboration.", "win": "", "setup": "", "role": ""},
+    {"noun": "Disguised Fox", "adjective": "Disguising", "power": 9, "basics": "*Immediate Day:* Select a diguise for yourself. (Strong Disguise)", "details": "Wolfpack is informed at the start of the night about the name of your disguise, with no elaboration.", "win": "", "setup": "", "role": ""},
     {"noun": "Clairvoyant Fox", "adjective": "Clairvoyant", "power": 18, "basics": "*Immediate Day:* Learn a players role.", "details": "Wolfpack is informed at the start of the night about the name of your result, with no elaboration. The %n will see the SoloWWW’s as a random werewolf role.", "win": "", "setup": "", "role": ""},
     {"noun": "Semi-Clairvoyant Fox", "adjective": "Semi-Clairvoyant", "power": 9, "basics": "*Immediate Day:* Learn a players role. (once)", "details": "The %n will see the SoloWWW’s as a random werewolf role.", "win": "", "setup": "", "role": ""},
     {"noun": "Disguiser", "adjective": "Disguiser", "power": 11, "basics": "*Immediate Day:* Disguise one player", "details": "All players lose their disguise at the end of the night.", "win": "", "setup": "", "role": ""},
