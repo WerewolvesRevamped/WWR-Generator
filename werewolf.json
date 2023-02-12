@@ -1,0 +1,74 @@
+{
+"generator_settings": {
+  "start_power": -20,
+  "minimum_power": -5,
+  "maximum_power": 20,
+  "double_name": false,
+  "random_abilities": true
+},
+  
+"win_condition": "0) You win when all players that aren’t part of the werewolf team have been killed.\n",
+  
+"default": {"noun": "Werewolf", "adjective": "Wolfish", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+
+"abilities_names": [
+  "Passive",
+  "Ability #2",
+  "Ability #1",
+  "Death Prevent",
+  "Death React",
+  "Group",
+  "Win Conditions"
+],
+
+"abilities": [
+  [
+    {"noun": "Alpha Wolf", "adjective": "Alpha", "power": 7, "basics": "*Passive:* Private vote counts as +2", "details": "", "win": "", "setup": "players set private_value %p 2", "role": "Wolf"},
+    {"noun": "Beta Wolf", "adjective": "Beta", "power": -4, "basics": "*Passive:* Start with 2 votes on public polls", "details": "", "win": "", "setup": "players set public_votes %p 2", "role": ""},
+    {"noun": "Mother Wolf", "adjective": "Pregnant", "power": 15, "basics": "*Passive:* Start with -2 votes on public polls", "details": "", "win": "", "setup": "players set public_votes %p -2", "role": ""},
+    {"noun": "Wolf Elder", "adjective": "Elder", "power": 2, "basics": "*Passive:* Private vote counts as -5", "details": "", "win": "", "setup": "players set private_value %p -5", "role": "Wolf"},
+    {"noun": "Outsider", "adjective": "Lone", "power": -3, "basics": "*Passive:* Join wolfpack if a member of the wolfpack dies", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Tanner", "adjective": "Tanning", "power": 17, "basics": "*Immediate Day:* Disguise two players", "details": "All players lose their disguise at the end of the night.", "win": "", "setup": "", "role": ""},
+    {"noun": "Disguiser", "adjective": "Disguising", "power": 11, "basics": "*Immediate Day:* Disguise one player", "details": "All players lose their disguise at the end of the night.", "win": "", "setup": "", "role": ""},
+    {"noun": "Mask Maker", "adjective": "Masking", "power": 21, "basics": "*Immediate Day:* Disguise three players", "details": "All players lose their disguise at the end of the night.", "win": "", "setup": "", "role": ""},
+    {"noun": "Warlock", "adjective": "Hexed", "power": 15, "basics": "*Immediate Night:* Check one players role", "details": "The %n will see the SoloWWW’s as a random werewolf role.", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Outsider", "adjective": "Lone", "power": -3, "basics": "*Passive:* Join wolfpack if a member of the wolfpack dies and gain immunity for the next/current night if it happens", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Infected Wolf", "adjective": "Infected", "power": 20, "basics": "*Night 1:* Convert a player into a random wolf role", "details": "Members of the wolfpack can’t be infected.", "win": "", "setup": "", "role": "Werewolf"},
+    {"noun": "Saboteur", "adjective": "Sabotaging", "power": 10, "basics": "*Immediate Night:* Saboteur Wolf", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Psychic", "adjective": "Spiritual", "power": 12, "basics": "*Immediate Night:* Psychic Wolf for one player", "details": "SoloWWW’s will appear as a random werewolf role to this power; regardless of what they are checked as. You may guess abilities (like Runner), partial roles (like Lone or Firebird) or full roles (like Lone Firebird).", "win": "", "setup": "", "role": ""},
+    {"noun": "Visionary Wolf", "adjective": "Clairvoyant", "power": 16, "basics": "*Immediate Night:* Psychic Wolf for two players", "details": "SoloWWW’s will appear as a random werewolf role to this power; regardless of what they are checked as. You may guess abilities (like Runner), partial roles (like Lone or Firebird) or full roles (like Lone Firebird).", "win": "", "setup": "", "role": ""},
+    {"noun": "Oracle Wolf", "adjective": "Clear-sighted", "power": 20, "basics": "*Immediate Night:* Psychic Wolf for three players", "details": "SoloWWW’swill appear as a random werewolf role to this power; regardless of what they are checked as. You may guess abilities (like Runner), partial roles (like Lone or Firebird) or full roles (like Lone Firebird).", "win": "", "setup": "", "role": ""},
+    {"noun": "Hunter Wolf", "adjective": "Hunting", "power": 10, "basics": "*End Night:** Attack a player", "details": "If they kill someone who isn’t on the Townsfolk team; the %n dies.", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Werewolf", "adjective": "Wolfish", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": "Werewolf"},
+    {"noun": "Beast", "adjective": "Scared", "power": 10, "basics": "*On Attack:* Survive first night attack", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Monster", "adjective": "Frightened", "power": 15, "basics": "*On Attack:* Survive first two night attacks", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Monstrosity", "adjective": "Fearful", "power": 15, "basics": "*On Attack:* Survive first night attack and kill attacker", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Behemoth", "adjective": "Crude", "power": 15, "basics": "*On Lynch:* Survive, reveal and cancel next lynch.", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Werewolf", "adjective": "Wolfish", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": "Werewolf"},
+    {"noun": "Omega Wolf", "adjective": "Omega", "power": 4, "basics": "*On Death:* Attacker is revealed in wolfpack channel", "details": "If a group killed the %n; a random person of the group is selected. Does not work for lynch.", "win": "", "setup": "", "role": ""},
+    {"noun": "Cub", "adjective": "Young", "power": 7, "basics": "*On Death:* Wolf’s Cub", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Whelp", "adjective": "Youthful", "power": 9, "basics": "*On Death:* Wolf’s Cub, but +2 kills", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Werewolf", "adjective": "Wolfish", "power": 3, "basics": "", "details": "", "win": "", "setup": "", "role": "Werewolf"},
+    {"noun": "Bloody Butcher", "adjective": "Bloody", "power": 8, "basics": "*Passive:* Bloody Butcher", "details": "", "win": "", "setup": "", "role": "Butcher"},
+    {"noun": "Hellhound", "adjective": "Hellish", "power": 5, "basics": "**Passive:** Hellhound", "details": "All the Hellhounds have a secret channel where they can communicate with the other Hellhounds securely.", "win": "", "setup": "", "role": "Hellhound"},
+    {"noun": "Bloody Baker", "adjective": "Bloody", "power": 17, "basics": "*Passive:** Bloody Butcher but for Bakers", "details": "", "win": "", "setup": "", "role": "Baker"}
+  ],
+  [
+    {"noun": "Anarchist", "adjective": "Anarchist", "power": 15, "basics": "*Passive:* Start with 4 votes on public polls", "details": "", "win": "You additionally also win if you do not gain any elected roles, and do not die at night. Elected roles you gain while being lynched count.", "setup": "players set public_votes %p 4", "role": ""},
+    {"noun": "Lover", "adjective": "Loving", "power": 10, "basics": "", "details": "", "win": "You additionally also win if the player above you in the list wins. If their win condition requires them to kill you; their team can still win even if you are alive.", "setup": "", "role": ""},
+    {"noun": "Lover", "adjective": "Loving", "power": 10, "basics": "", "details": "", "win": "You additionally also win if the player below you in the list wins. If their win condition requires them to kill you; their team can still win even if you are alive.", "setup": "", "role": ""},
+    {"noun": "Collector", "adjective": "Collecting", "power": 18, "basics": "", "details": "", "win": "You additionally also win if three players visit you in a night.", "setup": "", "role": ""}
+  ]
+]
+
+}
