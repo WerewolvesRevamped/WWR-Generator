@@ -1,0 +1,69 @@
+{
+"generator_settings": {
+  "start_power": -20,
+  "minimum_power": -5,
+  "maximum_power": -10,
+  "double_name": true,
+  "random_abilities": false 
+},
+  
+"win_condition": "0) You win when only Unaligned players; and players of the Pyromancer team remain. Powdering a member of the Pyromancer team silently fails.\n",
+  
+"default": {"noun": "Pyromancer", "adjective": "Fiery", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+
+"abilities_names": [
+  "Pyro Ability",
+  "Extra Ability - Kill",
+  "Extra Ability - Misc",
+  "Extra Ability - Powder related",
+  "Passive"
+],
+
+"abilities": [
+  [
+    {"noun": "Pyromancer", "adjective": "Burning", "power": 4, "basics": "*Night:* Ignite or powder one player", "details": "", "win": "", "setup": "", "role": "Pyromancer"},
+    {"noun": "Pyrobarber", "adjective": "Pyrobarbing", "power": 5, "basics": "*Immediate Day:* Ignite or powder one player", "details": "", "win": "", "setup": "", "role": "Pyromancer"},
+    {"noun": "Pyromaniac", "adjective": "Flaming", "power": 8, "basics": "*Night:* Ignite or powder two players", "details": "", "win": "", "setup": "", "role": "Pyromancer"},
+    {"noun": "Barbermaniac", "adjective": "Flaming", "power": 10, "basics": "*Immediate Day:* Ignite or powder two players", "details": "", "win": "", "setup": "", "role": "Pyromancer"},
+    {"noun": "Arsonist", "adjective": "Blazing", "power": 10, "basics": "*Night:* Ignite or/and powder one player", "details": "", "win": "", "setup": "", "role": "Pyromancer"},
+    {"noun": "Mr. Arsonist", "adjective": "Mr. Blazing", "power": 11, "basics": "*Immediate Day:* Ignite or/and powder one player", "details": "", "win": "", "setup": "", "role": "Pyromancer"},
+    {"noun": "Firelord", "adjective": "Hot", "power": 13, "basics": "*Immediate Night:* Powder and attack a player", "details": "The death and cause (Pyro) is immediately revealed. In case they survive the attack they will be powdered.", "win": "", "setup": "", "role": "Pyromancer"},
+    {"noun": "Pyroloner", "adjective": "Lone", "power": 1, "basics": "*Night:* Ignite or powder one player", "details": "The %n is not part of the pyromancer channel; but wins with them.", "win": "", "setup": "", "role": ""},
+    {"noun": "Pyrolone", "adjective": "Lonely", "power": 2, "basics": "*Immediate Day:* Ignite or powder one player", "details": "The %n is not part of the pyromancer channel; but wins with them.", "win": "", "setup": "", "role": ""},
+    {"noun": "Greedomancer", "adjective": "Greedy", "power": 2, "basics": "*Night:* Powder a player. Auto ignites if everyone is powdered.", "details": "At the end of every night, if all players that aren’t part of the Pyro team are powdered, all powdered players are ignited.", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Fireman", "adjective": "Combustive", "power": 8, "basics": "*End Night:* Attack a player once", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Bonfire", "adjective": "Flamy", "power": 3, "basics": "*Immediate Night:* Attack a player (once)", "details": "The death as well as your name is immediately revealed.", "win": "", "setup": "", "role": ""},
+    {"noun": "Bonflame", "adjective": "Bonflamy", "power": 5, "basics": "*Immediate Night:* Attack a player (twice)", "details": "The death as well as your name is immediately revealed.", "win": "", "setup": "", "role": ""},
+    {"noun": "Barbecue", "adjective": "Hot", "power": 3, "basics": "*End Night:* Attack a player, but reveal your role", "details": "The death and cause (Pyro); as well as your name is revealed.", "win": "", "setup": "", "role": ""},
+    {"noun": "Death", "adjective": "Deadly", "power": 14, "basics": "*End Night:* Kill a player (once)", "details": "Attacks the target 3 times in a row, to get through most defenses.", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Investigator", "adjective": "Scorching", "power": 5, "basics": "*Immediate Night:* Check one player’s role", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Firefly", "adjective": "Crackling", "power": 4, "basics": "*On Ignite:* Role of every player that dies is revealed", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Incinerator", "adjective": "Incinerating", "power": 8, "basics": "*On Lynch:* Reveal yourself as any role and lynch somebody else instead.", "details": "Every phase you may change what role you will reveal yourself as", "win": "", "setup": "", "role": ""},
+    {"noun": "Inferno Knight", "adjective": "Royal", "power": 8, "basics": "*Immediate Night:* Replace lynch with powder vote.", "details": "Once in the game you can replace the lynch with a vote for who shall be powdered. This is only announced once the poll is closed.", "win": "", "setup": "", "role": ""},
+    {"noun": "Flare", "adjective": "Glowing", "power": 6, "basics": "*Immediate Night:* Set a players public votes to the amount of powdered players for a day", "details": "If there are no powdered players, the value is set to 0.", "win": "", "setup": "", "role": ""},
+    {"noun": "Pyrocle", "adjective": "Pyrocling", "power": 12, "basics": "*Immediate Night:* Select two players, if they have the same alignment both are powdered.", "details": "You are informed if the two players have the same alignment. You can only select unpowdered players and you can only select every player once.", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Smoke", "adjective": "Smoking", "power": 3, "basics": "*Immediate Night:* Unpowder and attack a player", "details": "The players has to be powdered to be unpowdered", "win": "", "setup": "", "role": ""},
+    {"noun": "Fume", "adjective": "Fuming", "power": 7, "basics": "*Immediate Night:* Attack a powdered player", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Fire Friend", "adjective": "Friendly", "power": 2, "basics": "*On Powder:* If you powder a Pyromancer their role is revealed and your ability is cancelled. Afterward you can use the ability again.", "details": "If your powdering ability does anything other than powdering it is also cancelled.", "win": "", "setup": "", "role": ""},
+    {"noun": "Pyroteller", "adjective": "Pyrotelling", "power": 4, "basics": "*On Powder:* Learn the role of anyone you powder.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Wisp", "adjective": "Wispy", "power": 10, "basics": "*On Visit:* Players that visit you get powdered.", "details": "", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Firebird", "adjective": "Ignitable", "power": 4, "basics": "*On Death:* Attacker is revealed in pyromancer channel", "details": "If a group killed the %n; a random person of the group is selected. Does not work for lynch.", "win": "", "setup": "", "role": ""},
+    {"noun": "Flamebender", "adjective": "Inflamed", "power": 5, "basics": "*On Attack:* Escape once", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Firebender", "adjective": "Double Inflamed", "power": 7, "basics": "*On Attack:* Escape twice", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Firewoman", "adjective": "Flammable", "power": 8, "basics": "*On Death:* Attacker also dies.", "details": "If a group kills the %n; a random person of the group; that voted for the %n; is chosen. Does not work for lynch.", "win": "", "setup": "", "role": ""},
+    {"noun": "Fire", "adjective": "Singeing", "power": 1, "basics": "*On Lynch:* Powder everyone that voted for you.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Wildfire", "adjective": "Charring", "power": 9, "basics": "*On Death:* Ignites.", "details": "Everyone is ignited just before you die, not after.", "win": "", "setup": "", "role": ""},
+    {"noun": "Blaze", "adjective": "Blazing", "power": 12, "basics": "*On Death:* Escape & Ignite (once)", "details": "If you are lynched you don’t escape, but still ignite just before you die.", "win": "", "setup": "", "role": ""},
+    {"noun": "Pyronner", "adjective": "Pyronning", "power": 7, "basics": "*On Attack:* Escape once & powder attacker", "details": "You will be informed who the attacker was.", "win": "", "setup": "", "role": ""}
+  ]
+]
+
+}
