@@ -1,0 +1,63 @@
+{
+"generator_settings": {
+  "start_power": -15,
+  "minimum_power": -5,
+  "maximum_power": 10,
+  "double_name": false,
+  "random_abilities": false
+},
+  
+"win_condition": "",
+  
+"default": {"noun": "Unaligned", "adjective": "Unaligned", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+
+"abilities_names": [
+  "Win Condition",
+  "Ability - Invest, Escape, Attack",
+  "Ability - Disguise, Other",
+  "Passive - Vote Values"
+],
+
+"abilities": [
+  [
+    {"noun": "Angel", "adjective": "Angelic", "power": 8, "basics": "*Passive:* Start with -2 votes on public polls", "details": "", "win": "The %n wins if they are lynched.", "setup": "players set public_votes %p -2", "role": ""},
+    {"noun": "Despot", "adjective": "Despot", "power": 5, "basics": "*Passive:* Start with -2 votes on public polls", "details": "", "win": "The %n wins if they become Mayor.", "setup": "players set public_votes %p -2", "role": ""},
+    {"noun": "Anarchist", "adjective": "Anarchist", "power": 7, "basics": "*Passive:* Start with 4 votes on public polls", "details": "", "win": "The %n wins if they do not gain any elected roles. Elected roles gained while being lynched count.", "setup": "players set public_votes %p 4", "role": ""},
+    {"noun": "Lover", "adjective": "Loving", "power": 9, "basics": "", "details": "", "win": "The %n wins if the player above them in the list wins.", "setup": "", "role": ""},
+    {"noun": "Lover", "adjective": "Loving", "power": 9, "basics": "", "details": "", "win": "The %n wins if the player below them in the list wins.", "setup": "", "role": ""},
+    {"noun": "Chef", "adjective": "Cooking", "power": 11, "basics": "*Role:* Chef", "details": "At the start of the game; the %n may select one waiter for every eight players (rounded up).", "win": "The %n wins if they are alive at the end of the game, and at least one waiter remains.", "setup": "", "role": "Chef"},
+    {"noun": "Cupid", "adjective": "Faithful", "power": 3, "basics": "*Role:* Cupid", "details": "During the first night; the %n must choose a player to become their lover. If the %n does not choose in time; they will fall in love with a random player. The lover is added to the %n’s secret couple channel.", "win": "The %n has the same win condition as the Townsfolk team; however it is combined with the lovers win condition. The lover and the %n are excluded from the combined win condition.", "setup": "", "role": "Cupid"},
+    {"noun": "Aphrodite", "adjective": "Aphrodisiac", "power": -6, "basics": "*Role:* Cupid with 2 lovers", "details": "During the first night; the %n must choose two players to become their lovers. If the %n does not choose in time; they will fall in love with random players. The lovers are added to the %n’s secret couple channel.", "win": "The %n has the same win condition as the Townsfolk team; however it is combined with the lovers win conditions. The lovers and the %n are excluded from the combined win condition.", "setup": "", "role": "Cupid"},
+    {"noun": "Psychopath", "adjective": "Psychopathic", "power": 6, "basics": "*Role:* Psychopath", "details": "At the start of the game; the %n makes a list with one fourth of the players; rounded up; on it.", "win": "If all players on the list are dead; and the %n is still alive; the %n wins.", "setup": "", "role": ""},
+    {"noun": "Lunatic", "adjective": "Lunatic", "power": 10, "basics": "*Role:* Psychopath + Stalker", "details": "At the start of the game; the %n makes a list with one half of the players; rounded up; on it. Each night; the %n may assign a player two extra votes in the next day’s lynch poll.", "win": "If all players on the list are dead; and the %n is still alive; the %n wins.", "setup": "", "role": "Stalker"},
+    {"noun": "Mathematician", "adjective": "Mathematical", "power": 7, "basics": "", "details": "", "win": "The %n wins if at the end of the game an even amount of players remains; including the %n.", "setup": "", "role": ""},
+    {"noun": "Mathematician", "adjective": "Mathematical", "power": 7, "basics": "", "details": "", "win": "The %n wins if at the end of the game an odd amount of players remains; including the %n.", "setup": "", "role": ""},
+    {"noun": "Pessimist", "adjective": "Depressed", "power": 7, "basics": "*Passive:* Survive first two night deaths and first lynch", "details": "", "win": "The %n wins if they are dead.", "setup": "", "role": ""},
+    {"noun": "Hater", "adjective": "Hating", "power": 12, "basics": "", "details": "", "win": "The %n wins if the two players above them in the list die.", "setup": "", "role": ""},
+    {"noun": "Hater", "adjective": "Hating", "power": 12, "basics": "", "details": "", "win": "The %n wins if the two players below them in the list die.", "setup": "", "role": ""},
+    {"noun": "Hater", "adjective": "Hating", "power": 12, "basics": "*Immediate Night:* Protect up to 2 people from death for the night", "details": "", "win": "The %n wins if the player above them in the list dies first, unless the %n killed them.", "setup": "", "role": ""},
+    {"noun": "Hater", "adjective": "Hating", "power": 12, "basics": "*Immediate Night:* Protect up to 2 people from death for the night", "details": "", "win": "The %n wins if the player below them in the list dies first, unless the %n killed them.", "setup": "", "role": ""},
+    {"noun": "Deity", "adjective": "Divine", "power": 12, "basics": "*On Attack:* Escape 15 times\n*Passive:* Public vote counts as -1000", "details": "", "win": "The %n wins if every alive player has visited them or voted for them.", "setup": "players set public_votes %p -1000", "role": ""}
+  ],
+  [
+    {"noun": "Inspector", "adjective": "Inspecting", "power": 10, "basics": "*Immediate Night:* Check one players role.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Racer", "adjective": "Racing", "power": 7, "basics": "*On Attack:* Escape once", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Gymnast", "adjective": "Jumping", "power": 9, "basics": "*On Attack:* Escape twice", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Murderer", "adjective": "Murdering", "power": 12, "basics": "*Immediate Night:* Kill a player once", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Bomb", "adjective": "Explosive", "power": 8, "basics": "*On Death:* Attacker also dies.", "details": "Does not work for lynch.", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Mask Salesman", "adjective": "Happy", "power": 2, "basics": "*Immediate Day:* Disguise yourself.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Tan Provider", "adjective": "Tanned", "power": 3, "basics": "*Immediate Day:* Disguise a player.", "details": "Can be used on yourself.", "win": "", "setup": "", "role": ""},
+    {"noun": "Fraudster", "adjective": "Frauding", "power": 3, "basics": "*Immediate Night:* Unelect a player.", "details": "Can be used on yourself.", "win": "", "setup": "", "role": ""},
+    {"noun": "Healer", "adjective": "Healing", "power": 3, "basics": "*Immediate Night:* Revoke all solo effects from a player.", "details": "Can be used on yourself.", "win": "", "setup": "", "role": ""}
+  ],
+  [
+    {"noun": "Mayor", "adjective": "Ruling", "power": 7, "basics": "*Passive:* Public vote counts as +2", "details": "If the %n becomes Mayor; their vote is counted as 3.", "win": "", "setup": "players set public_value %p 2", "role": ""},
+    {"noun": "Trickster", "adjective": "Tricky", "power": -5, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""},
+    {"noun": "Deceiver", "adjective": "Deceiving", "power": -2, "basics": "*Passive:* Public vote counts as -2", "details": "If the %n becomes Mayor; their vote is counted as -3.", "win": "", "setup": "players set public_value %p -2", "role": ""},
+    {"noun": "Cheater", "adjective": "Cheating", "power": 4, "basics": "*Passive:* Public vote counts as -3", "details": "If the %n becomes Mayor; their vote is counted as -4.", "win": "", "setup": "players set public_value %p -3", "role": ""}
+  ]
+]
+
+}
