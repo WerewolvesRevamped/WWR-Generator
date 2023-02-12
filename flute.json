@@ -33,7 +33,7 @@
     {"noun": "Charmer", "adjective": "Charming", "power": 5, "basics":  "*Immediate Day:* Charm one player\n*Immediate Night:* Enchant one player", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
     {"noun": "Enchanter", "adjective": "Encharming", "power": 6, "basics":  "*Immediate Day:* Charm two players\n*Immediate Night:* Enchant one player", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
     {"noun": "Allurer", "adjective": "Alluring", "power": 10, "basics":  "*Immediate Day:* Charm one player\n*Immediate Night:* Enchant two players", "details": "Players from the Flute Player team cannot be enchanted.", "win": "", "setup": "", "role": "Flute Player"},
-    {"noun": "Charm Master", "adjective": "Charasmatic", "power": 8, "basics":  "*Immediate Day:* Charm one player\n*Any Time: Join the enchant channel\n*Immediate Night:* Enchant one player", "details": "", "win": "", "setup": "", "role": "Flute Player"}
+    {"noun": "Charm Master", "adjective": "Charasmatic", "power": 8, "basics":  "*Immediate Day:* Charm one player\n*Any Time*: Join the enchant channel\n*Immediate Night:* Enchant one player", "details": "", "win": "", "setup": "", "role": "Flute Player"}
   ],
   [
     {"noun": "Artist", "adjective": "Drums", "power": 3, "basics": "*Immediate Night:* Check one player’s role", "details": "", "win": "", "setup": "", "role": ""},
