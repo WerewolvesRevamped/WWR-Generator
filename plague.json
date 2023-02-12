@@ -19,9 +19,9 @@
 ],
 
 "abilities": [
-  {"noun": "Plague Bearer", "adjective": "Plagued", "power": 4, "basics": "*Immediate Night* Plague 1 player", "details": "", "win": "", "setup": "", "role": ""},
-  {"noun": "Infector", "adjective": "Infected", "power": 6, "basics": "*Immediate Night* Plague 2 players", "details": "", "win": "", "setup": "", "role": ""},
-  {"noun": "Pusswalker", "adjective": "Puss filled", "power": 5, "basics": "*Imediate Day* Plague 1 player", "details": "", "win": "", "setup": "", "role": ""},
+  {"noun": "Plague Bearer", "adjective": "Plagued", "power": 3, "basics": "*Immediate Night* Plague 1 player", "details": "", "win": "", "setup": "", "role": ""},
+  {"noun": "Infector", "adjective": "Infected", "power": 4, "basics": "*Immediate Night* Plague 2 players", "details": "", "win": "", "setup": "", "role": ""},
+  {"noun": "Pusswalker", "adjective": "Puss Filled", "power": 4, "basics": "*Imediate Day* Plague 1 player", "details": "", "win": "", "setup": "", "role": ""},
   {"noun": "Patient Zero", "adjective": "Indexical", "power": 2, "basics": "*End Night* Plague 1 player", "details": "", "win": "", "setup": "", "role": ""},
   {"noun": "Plague Carrier", "adjective": "Contagious", "power": 1, "basics": "Promote to Plague Bearer", "details": "This will occur on there being no more roles that can infect players, you will gain the Plague 1 player immediate night trait", "win": "", "setup": "", "role": ""},
 ],
@@ -29,4 +29,18 @@
   {"noun": "Plagueseer", "adjective": "Plagueseeing", "power": 2, "basics": "*On Plague* learn the role of the player you plagued", "details": "This is affected by weak disguises", "win": "", "setup": "", "role": ""},
   {"noun": "Vomit Wretch", "adjective": "Puking", "power": 2, "basics": "*On Plague* disguise the player as your role", "details": "", "win": "", "setup": "", "role": ""},
   {"noun": "Fever Crone", "adjective": "Delusional", "power": 3, "basics": "*On Plague* Prevent Player from voting", "details": "This will last until they die from plague", "win": "", "setup": "", "role": ""},
+],
+[
+{"noun": "Hemorator", "adjective": "Hemmoraging", "power": 3, "basics": "*Imediate Day* Attack a Plague Player", "details": "Attacking a player fails if they're not plagued", "win": "", "setup": "", "role": ""},
+{"noun": "Pox Victim", "adjective": "Pox Coated", "power": 2, "basics": "*End Night* Attack a Plague Player", "details": "Attacking a player fails if they're not plagued", "win": "", "setup": "", "role": ""},
+{"noun": "Sepsis Sufferer", "adjective": "Septic", "power": 5, "basics": "*End Night* Kill all Plagued Players (Once)", "details": "", "win": "", "setup": "", "role": ""},
+{"noun": "Necro-Flesh", "adjective": "Necrotising", "power": 3, "basics": "*On Visited* Attack Plagued Players", "details": "", "win": "", "setup": "", "role": ""},
+],
+[
+{"noun": "Bloodspurter", "adjective": "Bloodied", "power": 2, "basics": "*On Attack* Escape once", "details": "", "win": "", "setup": "", "role": ""},
+{"noun": "Bilespewer", "adjective": "Bile Soaked", "power": 3, "basics": "*On Attack* Escape twice", "details": "", "win": "", "setup": "", "role": ""},
+{"noun": "Vermin Tamer", "adjective": "Pest Owning", "power": 4, "basics": "*Passive* Start Contagious and can spread the Plague", "details": "", "win": "", "setup": "", "role": ""},
+{"noun": "Rat King", "adjective": "Rat Filled", "power": 3, "basics": "*Passive* Can become contagious", "details": "You can't be Directly infected", "win": "", "setup": "", "role": ""},
+{"noun": "Pidgeon Keeper", "adjective": "Fecal coated", "power": 4, "basics": "*Passive End Phase* Learn how many players are Plagued", "details": "", "win": "", "setup": "", "role": ""},
+]
 }
