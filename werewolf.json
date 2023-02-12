@@ -66,13 +66,13 @@
     {"noun": "Supreme Alpha Wolf", "adjective": "Supreme Alpha", "power": 5, "basics": "*End Night:* May override the results of the wolfpack kill. (infinite use)", "details": "", "win": "", "setup": "", "role": ""}
   ],
   [
+    {"noun": "Wolf-Sympathiser", "adjective": "Wolf-Abiding", "power": 2, "basics": "*On Attack:* Should a wolf-aligned player attempt to attack the %n, the attack fails.", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Beast", "adjective": "Scared", "power": 10, "basics": "*On Attack:* Survive first night attack", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Monster", "adjective": "Frightened", "power": 15, "basics": "*On Attack:* Survive first two night attacks", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Monstrosity", "adjective": "Fearful", "power": 15, "basics": "*On Attack:* Survive first night attack and kill attacker", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Behemoth", "adjective": "Crude", "power": 15, "basics": "*On Lynch:* Survive, reveal and cancel next lynch.", "details": "", "win": "", "setup": "", "role": ""}
   ],
   [
-    {"noun": "Wolf-Sympathiser", "adjective": "Wolf-Abiding", "power": 2, "basics": "Should a wolf-aligned player attempt to attack the %n, the attack fails.", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Omega Wolf", "adjective": "Omega", "power": 4, "basics": "*On Death:* Attacker is revealed in wolfpack channel", "details": "If a group killed the %n; a random person of the group is selected. Does not work for lynch.", "win": "", "setup": "", "role": ""},
     {"noun": "Cub", "adjective": "Young", "power": 7, "basics": "*On Death:* Wolf’s Cub", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Whelp", "adjective": "Youthful", "power": 9, "basics": "*On Death:* Wolf’s Cub, but +2 kills", "details": "", "win": "", "setup": "", "role": ""},
