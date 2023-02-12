@@ -126,7 +126,7 @@
     {"noun": "Cult Leader", "adjective": "Cult Leading", "power": 6, "basics": "*Passive:* Cult Leader", "details": "The Cult can attack until the last Cult Leader dies.", "win": "", "setup": "", "role": "Cult Leader"},
     {"noun": "Cult Member", "adjective": "Cultist", "power": 7, "basics": "*Passive:* Cult Member", "details": "The Cult can attack until the last Cult Leader dies.", "win": "", "setup": "", "role": "Cult Member"},
     {"noun": "Cult Acolyte", "adjective": "Acolytic", "power": 8, "basics": "*Passive:* Cult Acolyte", "details": "The Cult can attack until the last Cult Leader dies.", "win": "", "setup": "", "role": "Cult Acolyte"},
-    {"noun": "Test Subject", "adjective": "Experimental", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
+    {"noun": "Test Subject", "adjective": "Tested", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
   ]
 ]
 
