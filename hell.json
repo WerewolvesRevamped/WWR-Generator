@@ -24,7 +24,8 @@
     {"noun": "Devil", "adjective": "Devilish", "power": 3, "basics": "*Day:* Send a devil’s wager", "details": "", "win": "", "setup": "", "role": "Devil"},
     {"noun": "Satan", "adjective": "Satanic", "power": 6, "basics": "*Day:* Send a devil’s wager to up to 2 players", "details": "", "win": "", "setup": "", "role": "Devil"},
     {"noun": "Cerberus", "adjective": "Cerberean", "power": 1, "basics": "*Day:* Send a cerberus’s offer", "details": "", "win": "", "setup": "", "role": "Cerberus"},
-    {"noun": "Demon", "adjective": "Demonic", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": "Demon"}
+    {"noun": "Demon", "adjective": "Demonic", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": "Demon"},
+    {"noun": "Chevil", "adjective": "Cooking", "power": 1, "basics": "*Day:* Send a chef’s food. Should the recipient accept the offer, they secretly also sell their soul.", "details": "", "win": "", "setup": "", "role": "Chef#Demon"}
   ],
   [
     {"noun": "Demon", "adjective": "Demonic", "power": 8, "basics": "*Available Soul Abilities:* Protect & Attack", "details": "", "win": "", "setup": "", "role": ""},
