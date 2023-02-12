@@ -51,7 +51,8 @@
     {"noun": "of Wonder", "adjective": "Magical Unicorn", "power": 1, "basics": "*Passive:* When all players are doomed, all Horseman are united", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "of Paranoia", "adjective": "Tall Giraffe", "power": 1, "basics": "*Passive:* When a doomed player visits you, you are told their name", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "of Flight", "adjective": "Winged Pegasus", "power": 6, "basics": "*On Lynch:* Lynch ignored, next highest person (if applicable) lynched instead (multi use)", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "of Depression", "adjective": "Cynical Donkey", "power": -4, "basics": "*Passive:* Start with 2 votes on public polls", "details": "", "win": "", "setup": "players set public_votes %p 2", "role": ""}
+    {"noun": "of Depression", "adjective": "Cynical Donkey", "power": -4, "basics": "*Passive:* Start with 2 votes on public polls", "details": "", "win": "", "setup": "players set public_votes %p 2", "role": ""},
+    {"noun": "of Targetting", "adjective": "Pony", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": "!_Target"}
   ]
 
 ]
