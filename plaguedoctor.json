@@ -23,16 +23,22 @@
   [
     {"noun": "Seeker", "adjective": "Symptom", "power": 3, "basics": "*Immediate Night:* Learn if somebody has the plague", "details": "Plague team will always show as *not* having the plague", "win": "", "setup": "", "role": ""},
     {"noun": "Finder", "adjective": "Plague", "power": 4, "basics": "*Immediate Night:* Learn if somebody has the plague, and if yes, since when", "details": "Plague team will always show as *not* having the plague", "win": "", "setup": "", "role": ""},
-    {"noun": "Revealer", "adjective": "Disease", "power": 2, "basics": "*Immediate Night:* Learn if somebody is part of the plague team", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Epidemiologist", "adjective": "Disease", "power": 2, "basics": "*Immediate Night:* Learn if somebody is part of the plague team", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Revealer", "adjective": "Viral Infection", "power": 2, "basics": "*Immediate Night:* Check if somebody is part of the plague team (twice)", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Mortician", "adjective": "Funeral-arranging", "power": 1, "basics": "*Passive:* Learn whenever somebody dies of the plague", "details": "", "win": "", "setup": "", "role": ""}
   ],
   [
+    {"noun": "Family Doctor", "adjective": "Ebola", "power": 2, "basics": "*Immediate Night:* Cure somebody of the plague (one time)", "details": "Players in the final stage of the plague cannot be cured", "win": "", "setup": "", "role": ""},
+    {"noun": "Immunologist", "adjective": "AIDS", "power": 3, "basics": "*Immediate Night:* Cure somebody of the plague (two times)", "details": "Players in the final stage of the plague cannot be cured", "win": "", "setup": "", "role": ""},
+    {"noun": "Pharmacist", "adjective": "Virus", "power": 4, "basics": "*Immediate Night:* Cure somebody of the plague (three times)", "details": "Players in the final stage of the plague cannot be cured", "win": "", "setup": "", "role": ""},
     {"noun": "Doctor", "adjective": "Infection", "power": 5, "basics": "*Immediate Night:* Cure somebody of the plague", "details": "Players in the final stage of the plague cannot be cured", "win": "", "setup": "", "role": ""},
     {"noun": "Specialist", "adjective": "Epidemic", "power": 7, "basics": "*Immediate Night:* Cure somebody of the plague", "details": "You can even cure players in the final stage of the plague", "win": "", "setup": "", "role": ""},
+    {"noun": "Imperfect Epidemiologist", "adjective": "Covid-19", "power": 5, "basics": "*Immediate Night:* Cure somebody of the plague. If they don't have the plague, both you and them will contract it.", "details": "You can even cure players in the final stage of the plague", "win": "", "setup": "", "role": ""},
     {"noun": "Necromancer", "adjective": "Revitalizing", "power": 9, "basics": "*Immediate Day:* Resurrect somebody that died of the plague (once)", "details": "If you target didn't die of the plague, you may try again on another day.", "win": "", "setup": "", "role": ""}
   ],
   [
     {"noun": "Patient", "adjective": "Infected", "power": -3, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Lab Leaker", "adjective": "Plague Spreading", "power": -5, "basics": "Being infected turns a lynch poll the next day into a Plague poll, where the winner will contract the plague.", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Expert", "adjective": "Social-distancing", "power": 2, "basics": "*Passive:* Cannot be indirectly contaminated", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Analyst", "adjective": "Data-collecting", "power": 1, "basics": "*Start Phase:* Learn the number of contaminated players", "details": "", "win": "", "setup": "", "role": ""}
   ],
