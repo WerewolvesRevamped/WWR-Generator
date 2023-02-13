@@ -75,7 +75,8 @@
     {"noun": "Priest", "adjective": "Pious", "power": 10, "basics": "*End Night:* Use holy water on player ", "details": "If that player is werewolf/solo, that player will die. Otherwise, the %n dies.", "win": "", "setup": "", "role": ""},
     {"noun": "High Priest", "adjective": "Sanctimonious", "power": 20, "basics": "*End Night:* Use holy water on two players", "details": "If that player is werewolf/solo, that player will die. Otherwise, the %n dies.", "win": "", "setup": "", "role": ""},
     {"noun": "Witch", "adjective": "Witching", "power": 14, "basics": "*End Night:* Protect three players from any attack for one night (once) and attack one player (once).", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Guardian", "adjective": "Guarding", "power": 9, "basics": "*End Night:* Protect a player from the next lynch", "details": "The %n can not protect the same player; from the lynch; two times in a row.", "win": "", "setup": "", "role": ""}
+    {"noun": "Guardian", "adjective": "Guarding", "power": 9, "basics": "*End Night:* Protect a player from the next lynch", "details": "The %n can not protect the same player; from the lynch; two times in a row.", "win": "", "setup": "", "role": ""},
+    {"noun": "Judge", "adjective": "Judicial", "power": 11, "basics": "*End Night:* Can add an extra lynch poll tomorrow. (once)", "details": "", "win": "", "setup": "", "role": ""}
   ],
   [
     {"noun": "Aura Teller", "adjective": "Aura Telling", "power": 7, "basics": "*Night Immediate:* Check player for threat (aura teller)", "details": "", "win": "", "setup": "", "role": ""},
