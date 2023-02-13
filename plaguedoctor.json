@@ -44,12 +44,12 @@
   [
     {"noun": "Head Doctor", "adjective": "Chief", "power": 5, "basics": "*Passive:* Public vote counts as +2", "details": "If the %n becomes Mayor; their vote is counted as 3.", "win": "", "setup": "players set public_value %p 2", "role": ""},
     {"noun": "Retired Doctor", "adjective": "Low Reputation", "power": 1, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""},
-    {"noun": "Ambulance driver", "adjective": "Scurrying", "power": 7, "basics": "*On Attack:* Escape once", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Ambulance driver", "adjective": "Scurrying", "power": 5, "basics": "*On Attack:* Escape once", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Health Committee Member", "adjective": "Vetoing", "power": 3, "basics": "*Immediate Night:* Unelect a player.", "details": "Can be used on yourself.", "win": "", "setup": "", "role": ""},
-    {"noun": "World Health Organization Director-General", "adjective": "Guarded", "power": 8, "basics": "*On Death:* Attacker also dies.", "details": "Does not work for lynch.", "win": "", "setup": "", "role": ""},
-    {"noun": "Nurse", "adjective": "Nursing", "power": 7, "basics": "*On Death:* +1 lynch for next day.", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Pediatrician", "adjective": "Pediatric", "power": 7, "basics": "*On Death:* Election cancelled next day.", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Walk-in Clinic Worker", "adjective": "Clinical", "power": 7, "basics": "*Night Immediate:* Protect a player.", "details": "", "win": "", "setup": "", "role": ""}
+    {"noun": "World Health Organization Director-General", "adjective": "Guarded", "power": 3, "basics": "*On Death:* Attacker also dies.", "details": "Does not work for lynch.", "win": "", "setup": "", "role": ""},
+    {"noun": "Nurse", "adjective": "Nursing", "power": 1, "basics": "*On Death:* +1 lynch for next day.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Pediatrician", "adjective": "Pediatric", "power": 1, "basics": "*On Death:* Election cancelled next day.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Walk-in Clinic Worker", "adjective": "Clinical", "power": 4, "basics": "*Night Immediate:* Protect a player.", "details": "", "win": "", "setup": "", "role": ""}
   ]
 ]
 
