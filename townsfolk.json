@@ -58,14 +58,14 @@
     {"noun": "Macho", "adjective": "Macho", "power": 15, "basics": "*On Death:* Know attacker. Survive until night starts.", "details": "If the %n is killed by the lynch; they will die as normal.", "win": "", "setup": "", "role": ""},
     {"noun": "Scientist", "adjective": "Mad", "power": 7, "basics": "*On Death:* Attack targetted subject", "details": "", "win": "", "setup": "", "role": "Mad Scientist"},
     {"noun": "Experimenter", "adjective": "Crazy", "power": 7, "basics": "*On Death:* Attack all subjects", "details": "", "win": "", "setup": "", "role": "Mad Scientist"},
-    {"noun": "Shape Shifter", "adjective": "Shape Shifting", "power": 15, "basics": "*On Death:* Turn into a different random townsfolk role", "details": "If the %n is killed by the lynch; they will die as normal.", "win": "", "setup": "", "role": ""}
+    {"noun": "Shape Shifter", "adjective": "Shape Shifting", "power": 15, "basics": "*On Death:* Turn into a different random townsfolk role", "details": "When this happens you do not die. If the %n is killed by the lynch; they will die as normal.", "win": "", "setup": "", "role": ""}
   ],
   [
     {"noun": "Runner", "adjective": "Running", "power": 5, "basics": "*On Attack:* Escape once.", "details": "%n is informed if they were attacked. If a %n evades an attack; the attackers are told why.", "win": "", "setup": "", "role": ""},
     {"noun": "Acrobat", "adjective": "Acrobatic", "power": 10, "basics": "*On Attack:* Escape twice.", "details": "%n is informed if they were attacked. If a %n evades an attack; the attackers are told why.", "win": "", "setup": "", "role": ""},
     {"noun": "Dancer", "adjective": "Dancing", "power": 15, "basics": "*On Attack:* Escape thrice.", "details": "%n is informed if they were attacked. If a %n evades an attack; the attackers are told why.", "win": "", "setup": "", "role": ""},
     {"noun": "Cursed Civilian", "adjective": "Cursed", "power": -10, "basics": "*On Wolf Attack:* Turn into Wolf", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Thief", "adjective": "Thieving", "power": 15, "basics": "*On Attack:* Switch roles with attacker (once)", "details": "", "win": "", "setup": "", "role": ""}
+    {"noun": "Thief", "adjective": "Thieving", "power": 15, "basics": "*On Attack:* Switch roles with attacker (once)", "details": "When this happens you also escape from the attack", "win": "", "setup": "", "role": ""}
   ],
   [
     {"noun": "Assassin", "adjective": "Assassinating", "power": 12, "basics": "*End Night >1:* Attack a player (three times)", "details": "", "win": "", "setup": "", "role": ""},
@@ -100,7 +100,7 @@
   ],
   [
     {"noun": "Medium", "adjective": "Medium", "power": 7, "basics": "*End Day:* Medium", "details": "", "win": "", "setup": "", "role": "Medium"},
-    {"noun": "Knight", "adjective": "Royal", "power": 10, "basics": "*Day Immediate:* Cancel Lynch", "details": "Canceling the lynch is an immediate effect. However; the fact that the lynch has been canceled will only be revealed at the end of the day.", "win": "", "setup": "", "role": ""},
+    {"noun": "Knight", "adjective": "Royal", "power": 10, "basics": "*Day Immediate:* Cancel Lynch (once)", "details": "Canceling the lynch is an immediate effect. However; the fact that the lynch has been canceled will only be revealed at the end of the day.", "win": "", "setup": "", "role": ""},
     {"noun": "Protector", "adjective": "Protecting", "power": 15, "basics": "*End Day:* Protect one player from death for one night", "details": "The %n can not protect the same player two times in a row.", "win": "", "setup": "", "role": ""}
   ],
   [
