@@ -39,11 +39,11 @@
   [
     {"noun": "Senior Doctor", "adjective": "Vulnerable", "power": -1, "basics": "*On Rodent:* Direct contamination results in death", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Scientist", "adjective": "Experimenting", "power": -3, "basics": "A subject in the laboratory.", "details": "It is possible that a Mad Scientist doesn't exist.", "win": "", "setup": "", "role": "!_Target"},
-    {"noun": "Cancelled Doctor", "adjective": "Infamous", "power": -3, "basics": "*Passive:* Start with +2 votes on all public polls", "details": "", "win": "", "setup": "players set public_votes %p 2", "role": ""}
+    {"noun": "Scandalous Doctor", "adjective": "Infamous", "power": -3, "basics": "*Passive:* Start with +2 votes on all public polls", "details": "", "win": "", "setup": "players set public_votes %p 2", "role": ""}
   ],
   [
     {"noun": "Head Doctor", "adjective": "Chief", "power": 5, "basics": "*Passive:* Public vote counts as +2", "details": "If the %n becomes Mayor; their vote is counted as 3.", "win": "", "setup": "players set public_value %p 2", "role": ""},
-    {"noun": "Retired Doctor", "adjective": "Scandalous", "power": 1, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""},
+    {"noun": "Retired Doctor", "adjective": "Low Reputation", "power": 1, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""},
     {"noun": "Ambulance driver", "adjective": "Scurrying", "power": 7, "basics": "*On Attack:* Escape once", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Health Committee Member", "adjective": "Vetoing", "power": 3, "basics": "*Immediate Night:* Unelect a player.", "details": "Can be used on yourself.", "win": "", "setup": "", "role": ""},
     {"noun": "World Health Organization Director-General", "adjective": "Guarded", "power": 8, "basics": "*On Death:* Attacker also dies.", "details": "Does not work for lynch.", "win": "", "setup": "", "role": ""},
