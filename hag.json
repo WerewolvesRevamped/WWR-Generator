@@ -1,0 +1,59 @@
+{
+"generator_settings": {
+  "start_power": -10,
+  "minimum_power": -5,
+  "maximum_power": 10,
+  "double_name": false,
+  "random_abilities": false
+},
+  
+"win_condition": "",
+  
+"default": {"noun": "Unaligned Hag", "adjective": "Unaligned", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},
+
+"abilities_names": [
+  "Spell - Type",
+  "Spell - Amount",
+  "Spell - Gaining",
+  "Wronging",
+  "Win Condition",
+  "Passive"
+],
+  
+"abilities": [
+  [
+    {"noun": "Vicious", "adjective": "Vicious Hag", "power": 3, "basics": "*Known Spells:* Vicious Hag Spell.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Cautious", "adjective": "Cautious Hag", "power": 3, "basics": "*Known Spells:* Cautious Hag Spell.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Prophetic", "adjective": "Prophetic Hag", "power": 3, "basics": "*Known Spells:* Prophetic Hag Spell.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Uncertain", "adjective": "Uncertain Hag", "power": 8, "basics": "*Known Spells:* Choose one spell type. You are able to cast either of the other two types.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Witching", "adjective": "Witch Hag", "power": 6, "basics": "*Known Spells:* Vicious and Cautious Hag Spell.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Vexatious", "adjective": "Vexatious Hag", "power": 6, "basics": "*Known Spells:* Vicious and Prophetic Hag Spell.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Circumspectic", "adjective": "Circumspectic Hag", "power": 6, "basics": "*Known Spells:* Cautious and Prophetic Hag Spell.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Covening", "adjective": "Coven Leader", "power": 9, "basics": "*Known Spells:* Vicious Hag Spell.", "details": "", "win": "", "setup": "", "role": ""}
+    ],
+  [
+    {"noun": "Training", "adjective": "Magic Practitioner", "power": -2, "basics": "Start with 0 spells.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Average", "adjective": "Hag", "power": 0, "basics": "Start with 1 spell.", "details": "", "win": "", "setup": "", "role": ""},
+    {"noun": "Twin Casting", "adjective": "Expert Hag", "power": 3, "basics": "Start with 1 spell.", "details": "", "win": "", "setup": "", "role": ""}
+    ],
+  [
+    {"noun": "Mindful", "adjective": "Mindful Hag", "power": 3, "basics": "Gain a spell each time a hag is wronged.", "details": "", "win": "", "setup": "", "role": ""}
+    ],
+  [
+    {"noun": "Croney", "adjective": "Crone", "power": 3, "basics": "If a Hag is killed or has their role changed the team of the player(s) responsible has wronged the Hags. If a Hag is lynched, all teams who voted for the Hag, wrong the Hags.", "details": "Unaligned players cannot wrong the hags. When a Hag is wronged it is announced, including which team has wronged the Hags.", "win": "", "setup": "", "role": ""}
+    ],
+  [
+    {"noun": "Ogress", "adjective": "Ogress", "power": 7, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by either Townsfolk or Werewolves. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
+    {"noun": "Fur Coat Wearing", "adjective": "Cruella de Vil", "power": 5, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by Werewovles. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
+    {"noun": "Slovenly", "adjective": "Slattern", "power": 4, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by a Solo Team. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
+    {"noun": "Chaos Brewing", "adjective": "Jezebel", "power": 1, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by Townsfolk. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
+    {"noun": "Vixatious", "adjective": "Vixen", "power": 10, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by one team. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
+    {"noun": "Harping", "adjective": "Harpy", "power": 5, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by two teams. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
+    {"noun": "Repulsive", "adjective": "Gorgon", "power": 17, "basics": "", "details": "", "win": "Live to the end of the game. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
+    {"noun": "Malicious", "adjective": "Beldam", "power": 6, "basics": "", "details": "", "win": "Live to the end of the game and be the last Hag alive. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""}
+    ],
+  [
+    {"noun": "Heckling", "adjective": "Heckler", "power": -1, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""}    
+    ]
+  
+}
