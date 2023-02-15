@@ -53,7 +53,8 @@
     {"noun": "Malicious", "adjective": "Beldam", "power": 6, "basics": "", "details": "", "win": "Live to the end of the game and be the last Hag alive. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""}
     ],
   [
-    {"noun": "Heckling", "adjective": "Heckler", "power": -1, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""}    
+    {"noun": "Heckling", "adjective": "Heckler", "power": -1, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""},
+    {"noun": "Fussbudgety", "adjective": "Biddy", "power": -3, "basics": "A subject in the laboratory.", "details": "It is possible that a Mad Scientist doesn't exist.", "win": "", "setup": "", "role": "!_Target"}
     ]
   ]
   
