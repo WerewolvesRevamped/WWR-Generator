@@ -55,5 +55,6 @@
   [
     {"noun": "Heckling", "adjective": "Heckler", "power": -1, "basics": "*Passive:* Public vote counts as -1", "details": "If the %n becomes Mayor; their vote is counted as -2.", "win": "", "setup": "players set public_value %p -1", "role": ""}    
     ]
+  ]
   
 }
