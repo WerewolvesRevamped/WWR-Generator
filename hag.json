@@ -29,12 +29,12 @@
     {"noun": "Witching", "adjective": "Witch Hag", "power": 6, "basics": "*Known Spells:* Vicious and Cautious Hag Spell.", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Vexatious", "adjective": "Vexatious Hag", "power": 6, "basics": "*Known Spells:* Vicious and Prophetic Hag Spells.", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Circumspectic", "adjective": "Circumspectic Hag", "power": 6, "basics": "*Known Spells:* Cautious and Prophetic Hag Spells.", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Covening", "adjective": "Coven Leader", "power": 9, "basics": "*Known Spells:* Vicious Hag, Cautious and Prophetic Hag Spells.", "details": "", "win": "", "setup": "", "role": ""}
+    {"noun": "Covening", "adjective": "Coven Leader", "power": 9, "basics": "*Known Spells:* Vicious, Cautious and Prophetic Hag Spells.", "details": "", "win": "", "setup": "", "role": ""}
     ],
   [
     {"noun": "Training", "adjective": "Magic Practitioner", "power": -2, "basics": "Start with 0 spells.", "details": "", "win": "", "setup": "", "role": ""},
     {"noun": "Average", "adjective": "Hag", "power": 0, "basics": "Start with 1 spell.", "details": "", "win": "", "setup": "", "role": ""},
-    {"noun": "Twin Casting", "adjective": "Expert Hag", "power": 3, "basics": "Start with 1 spell.", "details": "", "win": "", "setup": "", "role": ""}
+    {"noun": "Twin Casting", "adjective": "Expert Hag", "power": 3, "basics": "Start with 2 spells.", "details": "", "win": "", "setup": "", "role": ""}
     ],
   [
     {"noun": "Mindful", "adjective": "Mindful Hag", "power": 3, "basics": "Gain a spell each time a hag is wronged.", "details": "", "win": "", "setup": "", "role": ""}
