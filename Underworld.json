@@ -1,0 +1,36 @@
+{
+"generator_settings": {
+  "start_power": -15,
+  "minimum_power": -5,
+  "maximum_power": 10,
+  "double_name": true,
+  "random_abilities": false 
+},
+    
+"win_condition": "0) You win when only Unaligned players and players of the Underworld team remain. \n"
+    
+"default": {"noun": "Vampire", "adjective": "Vampiric", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},  
+// the default noun and adjective for the team  
+  
+"abilities_names": [  
+  "Underworld Ability",  
+  "Extra Ability - Demonised Effects",  
+  "Extra Ability - Kills, Escapes",  
+  "Extra Ability - Misc",  
+  "Passives"  
+],  
+// Names for the ability pools  
+  
+"abilities": [  
+  [  
+    {"noun": "<Noun>", "adjective": "<Adjective>", "power": <Power Integer>, "basics": "<Basics Desc>", "details": "<Details Desc>", "win": "<Win Condition Desc>", "setup": "<Setup Commands>", "role": "<Additional Roles>"},  
+    {"noun": "", "adjective": "", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},  
+  ],  
+      
+  [  
+    {"noun": "", "adjective": "", "power": 0, "basics": "", "details": "", "win": "", "setup": "", "role": ""},  
+  ]  
+  
+]  
+  
+}  
