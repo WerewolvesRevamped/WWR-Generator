@@ -44,7 +44,7 @@
     ],
   [
     {"noun": "Ogress", "adjective": "Ogress", "power": 7, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by either Townsfolk or Werewolves. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
-    {"noun": "Fur Coat Wearing", "adjective": "Cruella de Vil", "power": 5, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by Werewovles. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
+    {"noun": "Fur Coat Wearing", "adjective": "Cruella de Vil", "power": 5, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by Werewolves. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
     {"noun": "Slovenly", "adjective": "Slattern", "power": 4, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by a Solo Team. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
     {"noun": "Chaos Brewing", "adjective": "Jezebel", "power": 1, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by Townsfolk. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
     {"noun": "Vixatious", "adjective": "Vixen", "power": 10, "basics": "", "details": "", "win": "Live to the end of the game and be wronged by one team. Can win with any team that hasn't wronged the hags.", "setup": "", "role": ""},
